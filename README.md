@@ -1,8 +1,22 @@
 # STQCL
 
+Run the basic point output by runing:
 
+```shell
+python -u point.py -model stgcn_point -data pems03 -note stgcn_point_pems03 -loss masked_mse -version 0 -cuda 0 >> stgcn_point_pems03_version0.log  2>&1
+```
 
+Run Our modified quantile output by runing:
 
+```shell
+python -u qmain2.py -model stgcn3 -data pems03 -note stgcn_quantile_pems03 -loss quantile -version 0 -cuda 0 >> stgcn_quantile_pems03_version0.log  2>&1
+```
+
+Run Our STQCL by runing:
+
+```shell
+python -u qmain_stacking.py -model stgcn3 -scl -qcl -tcl -wait_iter 1000 -scl_size 300 -scl_length 10 -tcl_size 300 -qcl_size 300 -data pems03 -note stgcn_stacking_pems03 -loss quantile -version 0 -cuda 0 >> stgcn_stacking_pems03_version0.log  2>&1
+```
 
 
 The external experiments are as follow:
