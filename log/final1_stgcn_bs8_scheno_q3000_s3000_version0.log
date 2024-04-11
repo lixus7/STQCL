@@ -1,0 +1,556 @@
+pdate shape is:  (16992,)
+./save/pems04_stgcn3_in12_out12_addtimeFalse_adjTrue_lr0.001_hc32_train0.6_val0.2_test0.2_seedNone_lossquantile_version0_note:final1_st_quantile_batch8_ymask_scheNo_q3000_s3000 training started Fri Dec 29 23:15:52 2023
+pdate shape is:  (16992,)
+data load........
+initial data shape is:  (16992, 307, 3)
+train_mean shape : (307,)
+train  :  (10177, 24, 307, 3)
+val  :  (3393, 24, 307, 3)
+test  :  (3388, 24, 307, 3)
+Model Training Started ... Fri Dec 29 23:15:54 2023
+TIMESTEP_IN, TIMESTEP_OUT 12 12
+LOSS is : quantile
+Spatial CL target length = 1
+Epoch 0: 
+| 3  Horizon | RMSE: 34.565, 33.752; MAE: 22.636, 22.235; MAPE: 13.652, 13.512; Q10: 7.427, 7.226; Q50: 11.484, 11.268; Q90: 8.202, 8.139;
+| 6  Horizon | RMSE: 38.165, 37.352; MAE: 25.271, 24.948; MAPE: 15.283, 15.132; Q10: 7.949, 7.760; Q50: 12.824, 12.644; Q90: 9.206, 9.107;
+| 12 Horizon | RMSE: 44.914, 43.902; MAE: 30.103, 29.840; MAPE: 18.392, 18.297; Q10: 8.957, 8.783; Q50: 15.267, 15.115; Q90: 11.311, 11.175;
+epoch 0 time used: 34  seconds  train loss: 18.196 val loss: 10.086796 test loss: 9.932261
+Epoch 1: 
+| 3  Horizon | RMSE: 32.679, 31.787; MAE: 20.920, 20.515; MAPE: 12.464, 12.358; Q10: 7.562, 7.389; Q50: 10.612, 10.395; Q90: 7.015, 6.942;
+| 6  Horizon | RMSE: 35.201, 34.310; MAE: 22.538, 22.207; MAPE: 13.392, 13.304; Q10: 7.548, 7.368; Q50: 11.433, 11.252; Q90: 7.711, 7.657;
+| 12 Horizon | RMSE: 40.273, 39.694; MAE: 26.073, 26.014; MAPE: 15.668, 15.837; Q10: 8.514, 8.329; Q50: 13.200, 13.158; Q90: 8.827, 8.792;
+epoch 1 time used: 32  seconds  train loss: 12.967 val loss: 9.042766 test loss: 8.908176
+cl quantile loss is [0.009999999999999995, 0.5, 0.99]
+current quantile length is:  1
+Current CL Size = 0
+Current CL Size = 100
+Current CL Size = 200
+Current CL Size = 300
+Current CL Size = 400
+Current CL Size = 500
+Current CL Size = 600
+Current CL Size = 700
+Current CL Size = 800
+Epoch 2: 
+| 3  Horizon | RMSE: 31.997, 31.203; MAE: 20.347, 19.995; MAPE: 11.897, 11.784; Q10: 5.911, 5.850; Q50: 10.312, 10.123; Q90: 5.817, 5.720;
+| 6  Horizon | RMSE: 33.817, 33.231; MAE: 21.563, 21.384; MAPE: 12.615, 12.542; Q10: 6.285, 6.220; Q50: 10.921, 10.819; Q90: 6.074, 6.010;
+| 12 Horizon | RMSE: 37.534, 37.472; MAE: 24.254, 24.446; MAPE: 14.442, 14.613; Q10: 7.104, 7.042; Q50: 12.307, 12.391; Q90: 6.564, 6.533;
+epoch 2 time used: 33  seconds  train loss: 10.831 val loss: 7.78752 test loss: 7.715659
+Current CL Size = 900
+Current CL Size = 1000
+Current CL Size = 1100
+Current CL Size = 1200
+Current CL Size = 1300
+Current CL Size = 1400
+Current CL Size = 1500
+Current CL Size = 1600
+Current CL Size = 1700
+Current CL Size = 1800
+Current CL Size = 1900
+Current CL Size = 2000
+Epoch 3: 
+| 3  Horizon | RMSE: 31.949, 31.169; MAE: 20.653, 20.248; MAPE: 13.157, 12.883; Q10: 5.481, 5.405; Q50: 10.439, 10.224; Q90: 5.843, 5.779;
+| 6  Horizon | RMSE: 33.864, 33.153; MAE: 21.791, 21.468; MAPE: 13.420, 13.171; Q10: 5.838, 5.748; Q50: 11.028, 10.852; Q90: 6.303, 6.256;
+| 12 Horizon | RMSE: 37.514, 37.050; MAE: 24.413, 24.331; MAPE: 15.114, 15.101; Q10: 7.239, 7.147; Q50: 12.349, 12.292; Q90: 6.790, 6.751;
+epoch 3 time used: 34  seconds  train loss: 9.769 val loss: 7.804006 test loss: 7.706569
+Current CL Size = 2100
+Current CL Size = 2200
+Current CL Size = 2300
+Current CL Size = 2400
+Current CL Size = 2500
+Current CL Size = 2600
+Current CL Size = 2700
+Current CL Size = 2800
+Current CL Size = 2900
+cl quantile loss is [0.020000000000000004, 0.5, 0.98]
+current quantile length is:  2
+Current CL Size = 3000
+Current CL Size = 3100
+Current CL Size = 3200
+Current CL Size = 3300
+Epoch 4: 
+| 3  Horizon | RMSE: 33.146, 32.797; MAE: 21.653, 21.594; MAPE: 12.639, 12.612; Q10: 6.706, 6.619; Q50: 10.973, 10.930; Q90: 7.452, 7.442;
+| 6  Horizon | RMSE: 34.851, 34.594; MAE: 22.740, 22.776; MAPE: 13.547, 13.470; Q10: 7.069, 6.960; Q50: 11.533, 11.536; Q90: 7.824, 7.841;
+| 12 Horizon | RMSE: 39.729, 39.647; MAE: 26.298, 26.450; MAPE: 15.438, 15.348; Q10: 8.274, 8.142; Q50: 13.351, 13.407; Q90: 7.960, 8.012;
+epoch 4 time used: 34  seconds  train loss: 10.612 val loss: 8.902021 test loss: 8.872792
+Current CL Size = 3400
+Current CL Size = 3500
+Current CL Size = 3600
+Current CL Size = 3700
+Current CL Size = 3800
+Current CL Size = 3900
+Current CL Size = 4000
+Current CL Size = 4100
+Current CL Size = 4200
+Current CL Size = 4300
+Current CL Size = 4400
+Current CL Size = 4500
+Current CL Size = 4600
+Epoch 5: 
+| 3  Horizon | RMSE: 31.310, 30.958; MAE: 19.777, 19.644; MAPE: 11.622, 11.555; Q10: 5.913, 5.851; Q50: 10.025, 9.949; Q90: 5.526, 5.468;
+| 6  Horizon | RMSE: 32.996, 32.849; MAE: 20.874, 20.862; MAPE: 12.465, 12.371; Q10: 6.440, 6.379; Q50: 10.572, 10.557; Q90: 6.085, 6.032;
+| 12 Horizon | RMSE: 35.850, 36.345; MAE: 23.018, 23.393; MAPE: 14.329, 14.362; Q10: 7.335, 7.286; Q50: 11.636, 11.820; Q90: 7.099, 7.056;
+epoch 5 time used: 33  seconds  train loss: 12.931 val loss: 7.777891 test loss: 7.743037
+Current CL Size = 4700
+Current CL Size = 4800
+Current CL Size = 4900
+Current CL Size = 5000
+Current CL Size = 5100
+Current CL Size = 5200
+Current CL Size = 5300
+Current CL Size = 5400
+Current CL Size = 5500
+Current CL Size = 5600
+Current CL Size = 5700
+Current CL Size = 5800
+Current CL Size = 5900
+Epoch 6: 
+| 3  Horizon | RMSE: 31.453, 31.240; MAE: 19.938, 19.928; MAPE: 11.591, 11.567; Q10: 6.105, 6.087; Q50: 10.094, 10.079; Q90: 5.247, 5.215;
+| 6  Horizon | RMSE: 33.144, 33.092; MAE: 21.024, 21.124; MAPE: 12.307, 12.282; Q10: 6.353, 6.346; Q50: 10.638, 10.678; Q90: 5.676, 5.652;
+| 12 Horizon | RMSE: 36.002, 36.473; MAE: 23.045, 23.503; MAPE: 13.564, 13.709; Q10: 6.898, 6.896; Q50: 11.662, 11.882; Q90: 6.139, 6.148;
+epoch 6 time used: 33  seconds  train loss: 12.78 val loss: 7.610075 test loss: 7.620432
+cl quantile loss is [0.03, 0.5, 0.97]
+current quantile length is:  3
+Current CL Size = 6000
+Current CL Size = 6100
+Current CL Size = 6200
+Current CL Size = 6300
+Current CL Size = 6400
+Current CL Size = 6500
+Current CL Size = 6600
+Current CL Size = 6700
+Current CL Size = 6800
+Current CL Size = 6900
+Current CL Size = 7000
+Current CL Size = 7100
+Epoch 7: 
+| 3  Horizon | RMSE: 31.303, 30.898; MAE: 19.695, 19.512; MAPE: 11.638, 11.596; Q10: 5.422, 5.365; Q50: 9.996, 9.890; Q90: 5.175, 5.154;
+| 6  Horizon | RMSE: 32.839, 32.630; MAE: 20.610, 20.571; MAPE: 12.041, 12.051; Q10: 6.146, 6.097; Q50: 10.455, 10.421; Q90: 5.460, 5.449;
+| 12 Horizon | RMSE: 35.602, 35.872; MAE: 22.657, 22.928; MAPE: 13.557, 13.716; Q10: 6.315, 6.291; Q50: 11.462, 11.586; Q90: 6.200, 6.218;
+epoch 7 time used: 33  seconds  train loss: 13.574 val loss: 7.269688 test loss: 7.249511
+Current CL Size = 7200
+Current CL Size = 7300
+Current CL Size = 7400
+Current CL Size = 7500
+Current CL Size = 7600
+Current CL Size = 7700
+Current CL Size = 7800
+Current CL Size = 7900
+Current CL Size = 8000
+Current CL Size = 8100
+Current CL Size = 8200
+Current CL Size = 8300
+Current CL Size = 8400
+Epoch 8: 
+| 3  Horizon | RMSE: 31.183, 31.006; MAE: 19.622, 19.630; MAPE: 11.729, 11.827; Q10: 5.669, 5.672; Q50: 9.963, 9.955; Q90: 5.092, 5.053;
+| 6  Horizon | RMSE: 32.816, 32.885; MAE: 20.651, 20.838; MAPE: 12.269, 12.438; Q10: 5.981, 6.002; Q50: 10.489, 10.570; Q90: 5.274, 5.254;
+| 12 Horizon | RMSE: 35.559, 36.106; MAE: 22.480, 22.991; MAPE: 13.096, 13.335; Q10: 6.349, 6.405; Q50: 11.400, 11.644; Q90: 5.870, 5.871;
+epoch 8 time used: 33  seconds  train loss: 13.526 val loss: 7.278134 test loss: 7.311804
+Current CL Size = 8500
+Current CL Size = 8600
+Current CL Size = 8700
+Current CL Size = 8800
+Current CL Size = 8900
+cl quantile loss is [0.04, 0.5, 0.96]
+current quantile length is:  4
+Current CL Size = 9000
+Current CL Size = 9100
+Current CL Size = 9200
+Current CL Size = 9300
+Current CL Size = 9400
+Current CL Size = 9500
+Current CL Size = 9600
+Current CL Size = 9700
+Epoch 9: 
+| 3  Horizon | RMSE: 31.162, 31.011; MAE: 19.577, 19.590; MAPE: 11.576, 11.717; Q10: 5.274, 5.283; Q50: 9.934, 9.931; Q90: 4.862, 4.841;
+| 6  Horizon | RMSE: 32.801, 32.917; MAE: 20.645, 20.878; MAPE: 12.151, 12.431; Q10: 5.378, 5.414; Q50: 10.482, 10.589; Q90: 4.946, 4.968;
+| 12 Horizon | RMSE: 35.335, 36.099; MAE: 22.390, 23.048; MAPE: 13.219, 13.644; Q10: 5.876, 5.945; Q50: 11.347, 11.670; Q90: 5.359, 5.472;
+epoch 9 time used: 33  seconds  train loss: 13.935 val loss: 6.993419 test loss: 7.051723
+Current CL Size = 9800
+Current CL Size = 9900
+Current CL Size = 10000
+Current CL Size = 10100
+Current CL Size = 10200
+Current CL Size = 10300
+Current CL Size = 10400
+Current CL Size = 10500
+Current CL Size = 10600
+Current CL Size = 10700
+Current CL Size = 10800
+Current CL Size = 10900
+Current CL Size = 11000
+Epoch 10: 
+| 3  Horizon | RMSE: 31.203, 31.034; MAE: 19.505, 19.464; MAPE: 11.424, 11.422; Q10: 4.991, 4.991; Q50: 9.887, 9.849; Q90: 4.925, 4.870;
+| 6  Horizon | RMSE: 32.824, 32.886; MAE: 20.532, 20.642; MAPE: 12.040, 12.016; Q10: 5.279, 5.314; Q50: 10.423, 10.460; Q90: 5.188, 5.164;
+| 12 Horizon | RMSE: 35.579, 36.200; MAE: 22.380, 22.874; MAPE: 13.194, 13.441; Q10: 5.634, 5.722; Q50: 11.359, 11.588; Q90: 5.709, 5.735;
+epoch 10 time used: 33  seconds  train loss: 14.269 val loss: 6.943362 test loss: 6.972181
+Current CL Size = 11100
+Current CL Size = 11200
+Current CL Size = 11300
+Current CL Size = 11400
+Current CL Size = 11500
+Current CL Size = 11600
+Current CL Size = 11700
+Current CL Size = 11800
+Current CL Size = 11900
+cl quantile loss is [0.05, 0.5, 0.95]
+current quantile length is:  5
+Current CL Size = 12000
+Current CL Size = 12100
+Current CL Size = 12200
+Epoch 11: 
+| 3  Horizon | RMSE: 31.264, 31.231; MAE: 19.866, 20.015; MAPE: 12.236, 12.438; Q10: 5.274, 5.296; Q50: 10.094, 10.159; Q90: 4.602, 4.628;
+| 6  Horizon | RMSE: 32.730, 32.829; MAE: 20.671, 20.907; MAPE: 12.412, 12.620; Q10: 5.592, 5.641; Q50: 10.495, 10.603; Q90: 4.838, 4.895;
+| 12 Horizon | RMSE: 35.442, 35.950; MAE: 22.622, 23.169; MAPE: 13.432, 13.756; Q10: 5.771, 5.822; Q50: 11.475, 11.738; Q90: 5.287, 5.430;
+epoch 11 time used: 33  seconds  train loss: 14.314 val loss: 6.942093 test loss: 7.018957
+Current CL Size = 12300
+Current CL Size = 12400
+Current CL Size = 12500
+Current CL Size = 12600
+Current CL Size = 12700
+Current CL Size = 12800
+Current CL Size = 12900
+Current CL Size = 13000
+Current CL Size = 13100
+Current CL Size = 13200
+Current CL Size = 13300
+Current CL Size = 13400
+Current CL Size = 13500
+Epoch 12: 
+| 3  Horizon | RMSE: 31.553, 31.500; MAE: 20.176, 20.310; MAPE: 13.009, 13.281; Q10: 5.097, 5.134; Q50: 10.258, 10.315; Q90: 4.601, 4.598;
+| 6  Horizon | RMSE: 33.019, 33.256; MAE: 20.975, 21.304; MAPE: 13.051, 13.377; Q10: 5.256, 5.317; Q50: 10.663, 10.816; Q90: 4.791, 4.814;
+| 12 Horizon | RMSE: 35.558, 36.165; MAE: 22.471, 22.934; MAPE: 13.224, 13.463; Q10: 5.735, 5.812; Q50: 11.392, 11.615; Q90: 5.238, 5.345;
+epoch 12 time used: 34  seconds  train loss: 14.922 val loss: 6.943121 test loss: 7.015656
+Current CL Size = 13600
+Current CL Size = 13700
+Current CL Size = 13800
+Current CL Size = 13900
+Current CL Size = 14000
+Current CL Size = 14100
+Current CL Size = 14200
+Current CL Size = 14300
+Current CL Size = 14400
+Current CL Size = 14500
+Current CL Size = 14600
+Current CL Size = 14700
+Current CL Size = 14800
+Epoch 13: 
+| 3  Horizon | RMSE: 31.308, 31.146; MAE: 19.543, 19.458; MAPE: 11.521, 11.487; Q10: 4.778, 4.790; Q50: 9.917, 9.860; Q90: 4.667, 4.627;
+| 6  Horizon | RMSE: 32.816, 32.873; MAE: 20.442, 20.500; MAPE: 11.958, 11.975; Q10: 5.141, 5.190; Q50: 10.371, 10.386; Q90: 4.904, 4.890;
+| 12 Horizon | RMSE: 35.398, 35.913; MAE: 22.220, 22.605; MAPE: 13.041, 13.143; Q10: 5.690, 5.756; Q50: 11.270, 11.447; Q90: 5.342, 5.389;
+epoch 13 time used: 33  seconds  train loss: 14.849 val loss: 6.805441 test loss: 6.828705
+Current CL Size = 14900
+cl quantile loss is [0.06000000000000001, 0.5, 0.94]
+current quantile length is:  6
+Current CL Size = 15000
+Current CL Size = 15100
+Current CL Size = 15200
+Current CL Size = 15300
+Current CL Size = 15400
+Current CL Size = 15500
+Current CL Size = 15600
+Current CL Size = 15700
+Current CL Size = 15800
+Current CL Size = 15900
+Current CL Size = 16000
+Epoch 14: 
+| 3  Horizon | RMSE: 31.205, 31.117; MAE: 19.685, 19.613; MAPE: 11.746, 11.711; Q10: 4.710, 4.710; Q50: 9.973, 9.924; Q90: 4.579, 4.594;
+| 6  Horizon | RMSE: 32.741, 32.782; MAE: 20.676, 20.681; MAPE: 12.371, 12.352; Q10: 5.010, 5.023; Q50: 10.471, 10.459; Q90: 4.749, 4.789;
+| 12 Horizon | RMSE: 35.231, 35.581; MAE: 22.314, 22.578; MAPE: 13.139, 13.243; Q10: 5.513, 5.526; Q50: 11.315, 11.430; Q90: 5.116, 5.232;
+epoch 14 time used: 33  seconds  train loss: 15.44 val loss: 6.75663 test loss: 6.782012
+Current CL Size = 16100
+Current CL Size = 16200
+Current CL Size = 16300
+Current CL Size = 16400
+Current CL Size = 16500
+Current CL Size = 16600
+Current CL Size = 16700
+Current CL Size = 16800
+Current CL Size = 16900
+Current CL Size = 17000
+Current CL Size = 17100
+Current CL Size = 17200
+Current CL Size = 17300
+Epoch 15: 
+| 3  Horizon | RMSE: 30.896, 30.889; MAE: 19.322, 19.371; MAPE: 11.297, 11.296; Q10: 4.799, 4.820; Q50: 9.789, 9.805; Q90: 4.571, 4.575;
+| 6  Horizon | RMSE: 32.394, 32.621; MAE: 20.336, 20.519; MAPE: 12.087, 12.036; Q10: 5.044, 5.093; Q50: 10.288, 10.372; Q90: 4.649, 4.723;
+| 12 Horizon | RMSE: 35.177, 35.682; MAE: 22.158, 22.574; MAPE: 13.205, 13.338; Q10: 5.447, 5.525; Q50: 11.223, 11.422; Q90: 5.303, 5.388;
+epoch 15 time used: 34  seconds  train loss: 15.492 val loss: 6.705142 test loss: 6.768012
+Current CL Size = 17400
+Current CL Size = 17500
+Current CL Size = 17600
+Current CL Size = 17700
+Current CL Size = 17800
+Current CL Size = 17900
+cl quantile loss is [0.07, 0.5, 0.9299999999999999]
+current quantile length is:  7
+Current CL Size = 18000
+Current CL Size = 18100
+Current CL Size = 18200
+Current CL Size = 18300
+Current CL Size = 18400
+Current CL Size = 18500
+Current CL Size = 18600
+Epoch 16: 
+| 3  Horizon | RMSE: 31.315, 31.325; MAE: 20.008, 20.090; MAPE: 12.696, 12.746; Q10: 4.918, 4.941; Q50: 10.173, 10.202; Q90: 4.482, 4.518;
+| 6  Horizon | RMSE: 32.797, 32.981; MAE: 20.805, 21.003; MAPE: 12.897, 12.981; Q10: 5.061, 5.106; Q50: 10.576, 10.662; Q90: 4.646, 4.730;
+| 12 Horizon | RMSE: 35.215, 35.612; MAE: 22.084, 22.458; MAPE: 13.369, 13.482; Q10: 5.393, 5.452; Q50: 11.216, 11.387; Q90: 5.106, 5.221;
+epoch 16 time used: 33  seconds  train loss: 15.826 val loss: 6.749313 test loss: 6.817533
+Current CL Size = 18700
+Current CL Size = 18800
+Current CL Size = 18900
+Current CL Size = 19000
+Current CL Size = 19100
+Current CL Size = 19200
+Current CL Size = 19300
+Current CL Size = 19400
+Current CL Size = 19500
+Current CL Size = 19600
+Current CL Size = 19700
+Current CL Size = 19800
+Current CL Size = 19900
+Epoch 17: 
+| 3  Horizon | RMSE: 31.113, 31.169; MAE: 19.568, 19.699; MAPE: 11.346, 11.451; Q10: 4.863, 4.880; Q50: 9.930, 9.985; Q90: 4.422, 4.496;
+| 6  Horizon | RMSE: 32.400, 32.593; MAE: 20.136, 20.368; MAPE: 11.757, 11.895; Q10: 4.961, 5.010; Q50: 10.213, 10.318; Q90: 4.609, 4.694;
+| 12 Horizon | RMSE: 35.069, 35.680; MAE: 22.048, 22.620; MAPE: 12.800, 13.100; Q10: 5.498, 5.571; Q50: 11.185, 11.459; Q90: 5.012, 5.203;
+epoch 17 time used: 34  seconds  train loss: 16.101 val loss: 6.66974 test loss: 6.767836
+Current CL Size = 20000
+Current CL Size = 20100
+Current CL Size = 20200
+Current CL Size = 20300
+Current CL Size = 20400
+Current CL Size = 20500
+Current CL Size = 20600
+Current CL Size = 20700
+Current CL Size = 20800
+Current CL Size = 20900
+cl quantile loss is [0.08, 0.5, 0.92]
+current quantile length is:  8
+Current CL Size = 21000
+Current CL Size = 21100
+Epoch 18: 
+| 3  Horizon | RMSE: 31.166, 31.214; MAE: 19.496, 19.592; MAPE: 11.532, 11.605; Q10: 4.669, 4.705; Q50: 9.898, 9.934; Q90: 4.432, 4.463;
+| 6  Horizon | RMSE: 32.709, 33.007; MAE: 20.453, 20.710; MAPE: 11.869, 11.977; Q10: 4.938, 4.995; Q50: 10.370, 10.488; Q90: 4.661, 4.755;
+| 12 Horizon | RMSE: 35.837, 36.377; MAE: 22.707, 23.210; MAPE: 13.251, 13.418; Q10: 5.439, 5.511; Q50: 11.531, 11.766; Q90: 5.327, 5.529;
+epoch 18 time used: 33  seconds  train loss: 16.137 val loss: 6.707511 test loss: 6.795874
+Current CL Size = 21200
+Current CL Size = 21300
+Current CL Size = 21400
+Current CL Size = 21500
+Current CL Size = 21600
+Current CL Size = 21700
+Current CL Size = 21800
+Current CL Size = 21900
+Current CL Size = 22000
+Current CL Size = 22100
+Current CL Size = 22200
+Current CL Size = 22300
+Current CL Size = 22400
+Epoch 19: 
+| 3  Horizon | RMSE: 31.105, 31.112; MAE: 19.459, 19.495; MAPE: 11.800, 11.822; Q10: 4.622, 4.640; Q50: 9.850, 9.855; Q90: 4.445, 4.476;
+| 6  Horizon | RMSE: 32.515, 32.704; MAE: 20.216, 20.409; MAPE: 11.836, 11.918; Q10: 4.879, 4.910; Q50: 10.252, 10.334; Q90: 4.635, 4.715;
+| 12 Horizon | RMSE: 35.304, 35.532; MAE: 22.079, 22.400; MAPE: 13.057, 13.193; Q10: 5.360, 5.393; Q50: 11.190, 11.334; Q90: 5.071, 5.197;
+epoch 19 time used: 34  seconds  train loss: 16.679 val loss: 6.624652 test loss: 6.683206
+Current CL Size = 22500
+Current CL Size = 22600
+Current CL Size = 22700
+Current CL Size = 22800
+Current CL Size = 22900
+Current CL Size = 23000
+Current CL Size = 23100
+Current CL Size = 23200
+Current CL Size = 23300
+Current CL Size = 23400
+Current CL Size = 23500
+Current CL Size = 23600
+Current CL Size = 23700
+Epoch 20: 
+| 3  Horizon | RMSE: 30.927, 30.861; MAE: 19.348, 19.372; MAPE: 11.324, 11.380; Q10: 4.608, 4.620; Q50: 9.817, 9.818; Q90: 4.401, 4.439;
+| 6  Horizon | RMSE: 32.446, 32.497; MAE: 20.220, 20.340; MAPE: 11.828, 11.936; Q10: 4.866, 4.879; Q50: 10.259, 10.309; Q90: 4.624, 4.729;
+| 12 Horizon | RMSE: 35.509, 35.847; MAE: 22.574, 23.015; MAPE: 13.367, 13.632; Q10: 5.428, 5.460; Q50: 11.471, 11.678; Q90: 5.131, 5.346;
+epoch 20 time used: 33  seconds  train loss: 16.649 val loss: 6.641604 test loss: 6.70986
+Current CL Size = 23800
+Current CL Size = 23900
+cl quantile loss is [0.09, 0.5, 0.91]
+current quantile length is:  9
+Current CL Size = 24000
+Current CL Size = 24100
+Current CL Size = 24200
+Current CL Size = 24300
+Current CL Size = 24400
+Current CL Size = 24500
+Current CL Size = 24600
+Current CL Size = 24700
+Current CL Size = 24800
+Current CL Size = 24900
+Current CL Size = 25000
+Epoch 21: 
+| 3  Horizon | RMSE: 31.069, 31.181; MAE: 19.418, 19.474; MAPE: 11.701, 11.683; Q10: 4.619, 4.655; Q50: 9.834, 9.855; Q90: 4.407, 4.461;
+| 6  Horizon | RMSE: 32.501, 32.872; MAE: 20.293, 20.559; MAPE: 12.022, 12.112; Q10: 4.858, 4.927; Q50: 10.279, 10.405; Q90: 4.622, 4.739;
+| 12 Horizon | RMSE: 35.037, 35.812; MAE: 21.985, 22.643; MAPE: 13.003, 13.399; Q10: 5.315, 5.437; Q50: 11.142, 11.465; Q90: 5.022, 5.246;
+epoch 21 time used: 33  seconds  train loss: 17.1 val loss: 6.609063 test loss: 6.718628
+Current CL Size = 25100
+Current CL Size = 25200
+Current CL Size = 25300
+Current CL Size = 25400
+Current CL Size = 25500
+Current CL Size = 25600
+Current CL Size = 25700
+Current CL Size = 25800
+Current CL Size = 25900
+Current CL Size = 26000
+Current CL Size = 26100
+Current CL Size = 26200
+Epoch 22: 
+| 3  Horizon | RMSE: 31.137, 31.117; MAE: 19.571, 19.611; MAPE: 11.361, 11.368; Q10: 4.617, 4.622; Q50: 9.914, 9.925; Q90: 4.434, 4.486;
+| 6  Horizon | RMSE: 32.534, 32.565; MAE: 20.284, 20.386; MAPE: 11.777, 11.811; Q10: 4.871, 4.874; Q50: 10.280, 10.321; Q90: 4.612, 4.697;
+| 12 Horizon | RMSE: 35.265, 35.381; MAE: 22.159, 22.444; MAPE: 12.925, 13.005; Q10: 5.354, 5.364; Q50: 11.230, 11.361; Q90: 5.075, 5.238;
+epoch 22 time used: 34  seconds  train loss: 17.192 val loss: 6.634224 test loss: 6.687049
+Current CL Size = 26300
+Current CL Size = 26400
+Current CL Size = 26500
+Current CL Size = 26600
+Current CL Size = 26700
+Current CL Size = 26800
+Current CL Size = 26900
+cl quantile loss is [0.1, 0.5, 0.9]
+current quantile length is:  10
+Epoch 23: 
+| 3  Horizon | RMSE: 31.196, 31.127; MAE: 19.398, 19.436; MAPE: 11.552, 11.613; Q10: 4.643, 4.664; Q50: 9.835, 9.843; Q90: 4.410, 4.449;
+| 6  Horizon | RMSE: 32.540, 32.588; MAE: 20.155, 20.336; MAPE: 12.017, 12.148; Q10: 4.895, 4.933; Q50: 10.228, 10.306; Q90: 4.595, 4.702;
+| 12 Horizon | RMSE: 34.969, 35.282; MAE: 21.878, 22.374; MAPE: 13.038, 13.326; Q10: 5.404, 5.467; Q50: 11.093, 11.329; Q90: 5.019, 5.247;
+*********************************************************************************
+Early Stop: 
+*********************************************************************************
+epoch 23 time used: 33  seconds  train loss: 17.422 val loss: 6.605418 test loss: 6.691838
+Epoch 24: 
+| 3  Horizon | RMSE: 30.915, 30.902; MAE: 19.251, 19.298; MAPE: 11.317, 11.356; Q10: 4.579, 4.595; Q50: 9.762, 9.774; Q90: 4.390, 4.425;
+| 6  Horizon | RMSE: 32.424, 32.566; MAE: 20.123, 20.303; MAPE: 11.840, 11.935; Q10: 4.837, 4.869; Q50: 10.196, 10.276; Q90: 4.593, 4.706;
+| 12 Horizon | RMSE: 35.004, 35.392; MAE: 21.875, 22.346; MAPE: 12.862, 13.119; Q10: 5.326, 5.370; Q50: 11.080, 11.304; Q90: 5.018, 5.246;
+*********************************************************************************
+Early Stop: 
+*********************************************************************************
+epoch 24 time used: 32  seconds  train loss: 17.731 val loss: 6.578349 test loss: 6.66289
+Epoch 25: 
+| 3  Horizon | RMSE: 31.088, 31.059; MAE: 19.507, 19.528; MAPE: 11.542, 11.554; Q10: 4.639, 4.653; Q50: 9.893, 9.892; Q90: 4.456, 4.513;
+| 6  Horizon | RMSE: 32.919, 33.008; MAE: 20.910, 21.076; MAPE: 13.240, 13.306; Q10: 4.984, 5.021; Q50: 10.638, 10.706; Q90: 4.783, 4.908;
+| 12 Horizon | RMSE: 35.955, 36.111; MAE: 23.084, 23.385; MAPE: 14.605, 14.609; Q10: 5.445, 5.468; Q50: 11.744, 11.876; Q90: 5.604, 5.776;
+epoch 25 time used: 33  seconds  train loss: 17.685 val loss: 6.788845 test loss: 6.854304
+Epoch 26: 
+| 3  Horizon | RMSE: 31.148, 31.053; MAE: 19.567, 19.602; MAPE: 11.327, 11.373; Q10: 4.635, 4.627; Q50: 9.928, 9.935; Q90: 4.484, 4.562;
+| 6  Horizon | RMSE: 32.475, 32.415; MAE: 20.250, 20.370; MAPE: 11.745, 11.805; Q10: 4.839, 4.834; Q50: 10.268, 10.316; Q90: 4.678, 4.815;
+| 12 Horizon | RMSE: 35.079, 35.125; MAE: 22.032, 22.377; MAPE: 12.845, 13.000; Q10: 5.313, 5.302; Q50: 11.188, 11.346; Q90: 5.076, 5.282;
+epoch 26 time used: 32  seconds  train loss: 17.675 val loss: 6.641781 test loss: 6.707836
+Epoch 27: 
+| 3  Horizon | RMSE: 30.997, 30.939; MAE: 19.342, 19.375; MAPE: 11.405, 11.445; Q10: 4.595, 4.612; Q50: 9.801, 9.806; Q90: 4.409, 4.468;
+| 6  Horizon | RMSE: 32.522, 32.523; MAE: 20.121, 20.283; MAPE: 11.739, 11.877; Q10: 4.867, 4.878; Q50: 10.209, 10.277; Q90: 4.621, 4.750;
+| 12 Horizon | RMSE: 35.003, 35.090; MAE: 21.824, 22.197; MAPE: 12.957, 13.161; Q10: 5.314, 5.323; Q50: 11.053, 11.226; Q90: 5.002, 5.203;
+epoch 27 time used: 32  seconds  train loss: 17.636 val loss: 6.583071 test loss: 6.655821
+Epoch 28: 
+| 3  Horizon | RMSE: 30.951, 30.995; MAE: 19.307, 19.410; MAPE: 11.357, 11.434; Q10: 4.601, 4.624; Q50: 9.797, 9.837; Q90: 4.414, 4.488;
+| 6  Horizon | RMSE: 32.631, 32.729; MAE: 20.250, 20.437; MAPE: 12.023, 12.136; Q10: 4.923, 4.959; Q50: 10.279, 10.359; Q90: 4.626, 4.749;
+| 12 Horizon | RMSE: 35.131, 35.527; MAE: 21.987, 22.567; MAPE: 13.143, 13.566; Q10: 5.421, 5.495; Q50: 11.142, 11.419; Q90: 5.001, 5.256;
+epoch 28 time used: 33  seconds  train loss: 17.611 val loss: 6.622934 test loss: 6.724151
+Epoch 29: 
+| 3  Horizon | RMSE: 30.982, 31.026; MAE: 19.279, 19.363; MAPE: 11.275, 11.329; Q10: 4.626, 4.645; Q50: 9.777, 9.808; Q90: 4.423, 4.496;
+| 6  Horizon | RMSE: 32.545, 32.706; MAE: 20.204, 20.420; MAPE: 11.847, 11.955; Q10: 4.859, 4.901; Q50: 10.259, 10.353; Q90: 4.627, 4.764;
+| 12 Horizon | RMSE: 34.920, 35.341; MAE: 21.750, 22.281; MAPE: 12.672, 12.915; Q10: 5.320, 5.383; Q50: 11.036, 11.286; Q90: 5.000, 5.241;
+epoch 29 time used: 33  seconds  train loss: 17.593 val loss: 6.588555 test loss: 6.688682
+Epoch 30: 
+| 3  Horizon | RMSE: 30.895, 30.923; MAE: 19.325, 19.402; MAPE: 11.428, 11.478; Q10: 4.594, 4.601; Q50: 9.796, 9.824; Q90: 4.437, 4.524;
+| 6  Horizon | RMSE: 32.529, 32.653; MAE: 20.303, 20.476; MAPE: 11.816, 11.905; Q10: 4.838, 4.856; Q50: 10.301, 10.374; Q90: 4.661, 4.806;
+| 12 Horizon | RMSE: 35.315, 35.565; MAE: 22.261, 22.649; MAPE: 12.810, 13.014; Q10: 5.300, 5.312; Q50: 11.292, 11.470; Q90: 5.232, 5.478;
+epoch 30 time used: 32  seconds  train loss: 17.551 val loss: 6.637676 test loss: 6.72126
+Epoch 31: 
+| 3  Horizon | RMSE: 31.097, 31.139; MAE: 19.365, 19.463; MAPE: 11.523, 11.585; Q10: 4.629, 4.653; Q50: 9.826, 9.862; Q90: 4.399, 4.475;
+| 6  Horizon | RMSE: 32.865, 32.977; MAE: 20.465, 20.646; MAPE: 12.308, 12.410; Q10: 4.940, 4.973; Q50: 10.362, 10.440; Q90: 4.629, 4.759;
+| 12 Horizon | RMSE: 35.572, 35.826; MAE: 22.177, 22.615; MAPE: 13.382, 13.599; Q10: 5.476, 5.512; Q50: 11.232, 11.437; Q90: 5.007, 5.239;
+epoch 31 time used: 34  seconds  train loss: 17.548 val loss: 6.637043 test loss: 6.727588
+Epoch 32: 
+| 3  Horizon | RMSE: 30.867, 30.847; MAE: 19.265, 19.342; MAPE: 11.271, 11.331; Q10: 4.586, 4.587; Q50: 9.772, 9.799; Q90: 4.441, 4.534;
+| 6  Horizon | RMSE: 32.496, 32.492; MAE: 20.204, 20.344; MAPE: 11.996, 12.076; Q10: 4.896, 4.906; Q50: 10.234, 10.293; Q90: 4.591, 4.706;
+| 12 Horizon | RMSE: 35.089, 35.226; MAE: 21.887, 22.282; MAPE: 13.069, 13.300; Q10: 5.398, 5.425; Q50: 11.089, 11.274; Q90: 4.980, 5.169;
+epoch 32 time used: 33  seconds  train loss: 17.525 val loss: 6.582118 test loss: 6.653102
+Epoch 33: 
+| 3  Horizon | RMSE: 30.904, 30.894; MAE: 19.263, 19.324; MAPE: 11.348, 11.419; Q10: 4.587, 4.589; Q50: 9.775, 9.794; Q90: 4.405, 4.490;
+| 6  Horizon | RMSE: 32.468, 32.493; MAE: 20.108, 20.237; MAPE: 11.836, 11.943; Q10: 4.850, 4.854; Q50: 10.190, 10.241; Q90: 4.612, 4.750;
+| 12 Horizon | RMSE: 34.928, 35.150; MAE: 21.800, 22.209; MAPE: 12.785, 13.026; Q10: 5.342, 5.344; Q50: 11.057, 11.246; Q90: 5.013, 5.244;
+*********************************************************************************
+Early Stop: 
+*********************************************************************************
+epoch 33 time used: 34  seconds  train loss: 17.491 val loss: 6.574397 test loss: 6.645762
+Epoch 34: 
+| 3  Horizon | RMSE: 31.067, 31.226; MAE: 19.312, 19.456; MAPE: 11.322, 11.400; Q10: 4.607, 4.633; Q50: 9.790, 9.852; Q90: 4.398, 4.483;
+| 6  Horizon | RMSE: 32.736, 33.079; MAE: 20.317, 20.592; MAPE: 12.131, 12.224; Q10: 4.901, 4.948; Q50: 10.284, 10.412; Q90: 4.616, 4.768;
+| 12 Horizon | RMSE: 35.411, 35.913; MAE: 22.210, 22.739; MAPE: 13.740, 13.940; Q10: 5.427, 5.476; Q50: 11.229, 11.484; Q90: 5.055, 5.300;
+epoch 34 time used: 33  seconds  train loss: 17.475 val loss: 6.627391 test loss: 6.736992
+Epoch 35: 
+| 3  Horizon | RMSE: 31.061, 31.182; MAE: 19.373, 19.482; MAPE: 11.509, 11.550; Q10: 4.617, 4.637; Q50: 9.836, 9.877; Q90: 4.419, 4.508;
+| 6  Horizon | RMSE: 32.647, 32.941; MAE: 20.232, 20.490; MAPE: 12.000, 12.122; Q10: 4.902, 4.953; Q50: 10.255, 10.370; Q90: 4.629, 4.782;
+| 12 Horizon | RMSE: 35.244, 35.759; MAE: 21.970, 22.545; MAPE: 13.219, 13.556; Q10: 5.367, 5.444; Q50: 11.126, 11.398; Q90: 5.054, 5.316;
+epoch 35 time used: 33  seconds  train loss: 17.458 val loss: 6.614337 test loss: 6.727721
+Epoch 36: 
+| 3  Horizon | RMSE: 31.069, 31.143; MAE: 19.221, 19.335; MAPE: 11.362, 11.450; Q10: 4.591, 4.624; Q50: 9.746, 9.793; Q90: 4.382, 4.452;
+| 6  Horizon | RMSE: 32.706, 32.959; MAE: 20.135, 20.416; MAPE: 11.991, 12.168; Q10: 4.883, 4.954; Q50: 10.224, 10.353; Q90: 4.581, 4.705;
+| 12 Horizon | RMSE: 35.096, 35.595; MAE: 21.700, 22.299; MAPE: 12.847, 13.193; Q10: 5.323, 5.427; Q50: 11.010, 11.296; Q90: 4.969, 5.202;
+*********************************************************************************
+Early Stop: 
+*********************************************************************************
+epoch 36 time used: 34  seconds  train loss: 17.445 val loss: 6.569694 test loss: 6.685839
+Epoch 37: 
+| 3  Horizon | RMSE: 31.323, 31.418; MAE: 19.441, 19.557; MAPE: 11.542, 11.663; Q10: 4.653, 4.688; Q50: 9.863, 9.909; Q90: 4.396, 4.468;
+| 6  Horizon | RMSE: 32.812, 33.177; MAE: 20.270, 20.578; MAPE: 12.075, 12.252; Q10: 4.913, 4.988; Q50: 10.293, 10.434; Q90: 4.620, 4.795;
+| 12 Horizon | RMSE: 35.132, 35.944; MAE: 21.782, 22.526; MAPE: 12.828, 13.275; Q10: 5.394, 5.532; Q50: 11.050, 11.410; Q90: 4.995, 5.286;
+epoch 37 time used: 33  seconds  train loss: 17.427 val loss: 6.609561 test loss: 6.749669
+Epoch 38: 
+| 3  Horizon | RMSE: 30.986, 31.008; MAE: 19.328, 19.428; MAPE: 11.336, 11.423; Q10: 4.576, 4.584; Q50: 9.813, 9.851; Q90: 4.431, 4.518;
+| 6  Horizon | RMSE: 32.495, 32.592; MAE: 20.103, 20.299; MAPE: 11.732, 11.845; Q10: 4.865, 4.881; Q50: 10.189, 10.274; Q90: 4.611, 4.764;
+| 12 Horizon | RMSE: 35.007, 35.315; MAE: 21.840, 22.305; MAPE: 12.720, 12.947; Q10: 5.333, 5.356; Q50: 11.078, 11.295; Q90: 5.066, 5.323;
+epoch 38 time used: 33  seconds  train loss: 17.392 val loss: 6.579243 test loss: 6.673286
+Epoch 39: 
+| 3  Horizon | RMSE: 30.975, 30.980; MAE: 19.378, 19.474; MAPE: 11.478, 11.579; Q10: 4.586, 4.578; Q50: 9.821, 9.857; Q90: 4.432, 4.527;
+| 6  Horizon | RMSE: 32.536, 32.683; MAE: 20.240, 20.481; MAPE: 11.958, 12.127; Q10: 4.842, 4.858; Q50: 10.256, 10.364; Q90: 4.660, 4.825;
+| 12 Horizon | RMSE: 35.088, 35.410; MAE: 21.922, 22.443; MAPE: 12.905, 13.239; Q10: 5.307, 5.327; Q50: 11.111, 11.356; Q90: 5.062, 5.318;
+epoch 39 time used: 32  seconds  train loss: 17.392 val loss: 6.607068 test loss: 6.706318
+Epoch 40: 
+| 3  Horizon | RMSE: 31.028, 30.942; MAE: 19.256, 19.315; MAPE: 11.368, 11.463; Q10: 4.611, 4.612; Q50: 9.761, 9.779; Q90: 4.379, 4.434;
+| 6  Horizon | RMSE: 32.602, 32.720; MAE: 20.139, 20.377; MAPE: 11.797, 11.957; Q10: 4.861, 4.884; Q50: 10.221, 10.327; Q90: 4.608, 4.763;
+| 12 Horizon | RMSE: 35.132, 35.439; MAE: 21.823, 22.309; MAPE: 12.862, 13.178; Q10: 5.366, 5.394; Q50: 11.060, 11.289; Q90: 5.041, 5.309;
+epoch 40 time used: 32  seconds  train loss: 17.371 val loss: 6.584051 test loss: 6.677098
+Epoch 41: 
+| 3  Horizon | RMSE: 30.871, 30.788; MAE: 19.301, 19.330; MAPE: 11.361, 11.418; Q10: 4.605, 4.594; Q50: 9.782, 9.786; Q90: 4.418, 4.495;
+| 6  Horizon | RMSE: 32.423, 32.412; MAE: 20.155, 20.272; MAPE: 11.811, 11.904; Q10: 4.855, 4.848; Q50: 10.221, 10.267; Q90: 4.637, 4.773;
+| 12 Horizon | RMSE: 35.042, 35.114; MAE: 22.028, 22.325; MAPE: 13.310, 13.469; Q10: 5.494, 5.467; Q50: 11.152, 11.286; Q90: 5.006, 5.199;
+epoch 41 time used: 33  seconds  train loss: 17.359 val loss: 6.607759 test loss: 6.666104
+Epoch 42: 
+| 3  Horizon | RMSE: 30.939, 30.856; MAE: 19.322, 19.381; MAPE: 11.415, 11.507; Q10: 4.594, 4.580; Q50: 9.790, 9.807; Q90: 4.421, 4.508;
+| 6  Horizon | RMSE: 32.479, 32.498; MAE: 20.204, 20.380; MAPE: 12.031, 12.193; Q10: 4.871, 4.870; Q50: 10.235, 10.308; Q90: 4.638, 4.786;
+| 12 Horizon | RMSE: 34.847, 35.043; MAE: 21.807, 22.214; MAPE: 13.054, 13.339; Q10: 5.360, 5.339; Q50: 11.051, 11.237; Q90: 5.040, 5.289;
+epoch 42 time used: 33  seconds  train loss: 17.363 val loss: 6.602574 test loss: 6.680623
+Epoch 43: 
+| 3  Horizon | RMSE: 30.897, 30.879; MAE: 19.236, 19.324; MAPE: 11.264, 11.368; Q10: 4.587, 4.591; Q50: 9.762, 9.794; Q90: 4.391, 4.473;
+| 6  Horizon | RMSE: 32.502, 32.566; MAE: 20.128, 20.293; MAPE: 11.814, 11.925; Q10: 4.855, 4.863; Q50: 10.196, 10.267; Q90: 4.600, 4.740;
+| 12 Horizon | RMSE: 35.100, 35.279; MAE: 21.889, 22.248; MAPE: 12.997, 13.192; Q10: 5.352, 5.344; Q50: 11.092, 11.258; Q90: 5.023, 5.248;
+epoch 43 time used: 33  seconds  train loss: 17.329 val loss: 6.570483 test loss: 6.644178
+Epoch 44: 
+| 3  Horizon | RMSE: 30.916, 31.071; MAE: 19.225, 19.398; MAPE: 11.310, 11.452; Q10: 4.580, 4.613; Q50: 9.755, 9.831; Q90: 4.401, 4.512;
+| 6  Horizon | RMSE: 32.434, 32.740; MAE: 20.149, 20.416; MAPE: 12.024, 12.162; Q10: 4.922, 4.962; Q50: 10.199, 10.323; Q90: 4.628, 4.798;
+| 12 Horizon | RMSE: 35.022, 35.428; MAE: 21.981, 22.420; MAPE: 13.501, 13.742; Q10: 5.441, 5.479; Q50: 11.114, 11.324; Q90: 5.013, 5.241;
+epoch 44 time used: 33  seconds  train loss: 17.344 val loss: 6.590231 test loss: 6.708317
+Epoch 45: 
+| 3  Horizon | RMSE: 30.849, 30.910; MAE: 19.241, 19.350; MAPE: 11.349, 11.465; Q10: 4.591, 4.602; Q50: 9.767, 9.809; Q90: 4.411, 4.514;
+| 6  Horizon | RMSE: 32.467, 32.660; MAE: 20.177, 20.429; MAPE: 11.908, 12.075; Q10: 4.905, 4.931; Q50: 10.225, 10.338; Q90: 4.602, 4.771;
+| 12 Horizon | RMSE: 34.953, 35.368; MAE: 21.846, 22.331; MAPE: 13.089, 13.269; Q10: 5.372, 5.395; Q50: 11.096, 11.322; Q90: 5.026, 5.281;
+epoch 45 time used: 32  seconds  train loss: 17.304 val loss: 6.590015 test loss: 6.693596
+Epoch 46: 
+| 3  Horizon | RMSE: 30.971, 31.122; MAE: 19.324, 19.488; MAPE: 11.260, 11.387; Q10: 4.594, 4.620; Q50: 9.805, 9.876; Q90: 4.449, 4.561;
+| 6  Horizon | RMSE: 32.646, 33.039; MAE: 20.376, 20.702; MAPE: 11.946, 12.113; Q10: 4.874, 4.927; Q50: 10.350, 10.499; Q90: 4.793, 5.003;
+| 12 Horizon | RMSE: 34.919, 35.658; MAE: 21.845, 22.477; MAPE: 12.711, 13.093; Q10: 5.320, 5.397; Q50: 11.083, 11.384; Q90: 5.054, 5.363;
+Early stopping at epoch: 46
+Model  stgcn3  Best Results:
+Epoch 36: 
+=        =        Horizon  3        =        =        =        =        Horizon  6        =        =        =        =        Horizon  12       =        =       
+RMSE     MAE      MAPE     Q10      Q50      Q90      RMSE     MAE      MAPE     Q10      Q50      Q90      RMSE     MAE      MAPE     Q10      Q50      Q90     
+31.143   19.335   11.450   4.624    9.793    4.452    32.959   20.416   12.168   4.954    10.353   4.705    35.595   22.299   13.193   5.427    11.296   5.202   
+Model Training Ended ... Fri Dec 29 23:42:22 2023

@@ -1,0 +1,15 @@
+nohup: ignoring input
+pdate shape is:  (16992,)
+./save/pems04_dcrnn00_in12_out12_addtimeFalse_adjTrue_lr0.001_hc32_train0.6_val0.2_test0.2_seedNone_lossquantile_version99_note:pems04_dcrnn00_batch_64_stacking_stq_wait1000s3000slen10t3000q3000scheNo training started Thu Jan 18 17:07:44 2024
+pdate shape is:  (16992,)
+data load........
+initial data shape is:  (16992, 307, 3)
+train_mean shape : (307,)
+train  :  (10177, 24, 307, 3)
+val  :  (3393, 24, 307, 3)
+test  :  (3388, 24, 307, 3)
+Model Training Started ... Thu Jan 18 17:07:46 2024
+TIMESTEP_IN, TIMESTEP_OUT 12 12
+LOSS is : quantile
+CL target length = 1
+qcl init quantile loss is [0.010000000000000009, 0.5, 0.99]

@@ -1,0 +1,67 @@
+nohup: ignoring input
+pdate shape is:  (16992,)
+Model Testing Started ... Fri Feb  9 00:29:44 2024
+INPUT_STEP, PRED_STEP 12 12
+pdate shape is:  (16992,)
+data load........
+initial data shape is:  (16992, 307, 3)
+train_mean shape : (307,)
+****************************************
+****************************************
+Under Train Strategy ---  0.6  ---:
+--- version  0  evaluation start ---
+file exists:  ./save/pems04_scinet_point_in12_out12_addtimeFalse_adjTrue_lr0.001_hc32_train0.6_val0.2_test0.2_seedNone_lossmasked_mse_version0_note:/scinet_point.pt
+********************
+Version: 0 Start Testing :
+| 3  Horizon | RMSE: 30.499, 30.137; MAE: 19.315, 19.294; MAPE: 11.573, 11.705;
+| 6  Horizon | RMSE: 31.724, 31.538; MAE: 20.061, 20.198; MAPE: 11.959, 12.182;
+| 12 Horizon | RMSE: 33.908, 34.217; MAE: 21.731, 22.197; MAPE: 13.130, 13.502;
+--- version  0  evaluation end ---
+
+--- version  1  evaluation start ---
+file exists:  ./save/pems04_scinet_point_in12_out12_addtimeFalse_adjTrue_lr0.001_hc32_train0.6_val0.2_test0.2_seedNone_lossmasked_mse_version1_note:/scinet_point.pt
+********************
+Version: 1 Start Testing :
+| 3  Horizon | RMSE: 30.680, 30.043; MAE: 19.392, 19.155; MAPE: 11.736, 11.714;
+| 6  Horizon | RMSE: 31.625, 31.219; MAE: 19.959, 19.942; MAPE: 11.919, 12.111;
+| 12 Horizon | RMSE: 33.901, 34.061; MAE: 21.778, 22.157; MAPE: 13.268, 13.702;
+--- version  1  evaluation end ---
+
+--- version  2  evaluation start ---
+file exists:  ./save/pems04_scinet_point_in12_out12_addtimeFalse_adjTrue_lr0.001_hc32_train0.6_val0.2_test0.2_seedNone_lossmasked_mse_version2_note:/scinet_point.pt
+********************
+Version: 2 Start Testing :
+| 3  Horizon | RMSE: 30.424, 29.924; MAE: 19.243, 19.131; MAPE: 11.619, 11.707;
+| 6  Horizon | RMSE: 31.658, 31.282; MAE: 20.002, 19.975; MAPE: 12.048, 12.149;
+| 12 Horizon | RMSE: 34.152, 34.227; MAE: 22.127, 22.459; MAPE: 14.115, 14.473;
+--- version  2  evaluation end ---
+
+--- version  3  evaluation start ---
+file exists:  ./save/pems04_scinet_point_in12_out12_addtimeFalse_adjTrue_lr0.001_hc32_train0.6_val0.2_test0.2_seedNone_lossmasked_mse_version3_note:/scinet_point.pt
+********************
+Version: 3 Start Testing :
+| 3  Horizon | RMSE: 30.295, 29.822; MAE: 19.138, 18.993; MAPE: 11.508, 11.526;
+| 6  Horizon | RMSE: 31.488, 31.255; MAE: 19.879, 19.919; MAPE: 11.917, 12.009;
+| 12 Horizon | RMSE: 33.957, 34.174; MAE: 21.742, 22.084; MAPE: 13.178, 13.357;
+--- version  3  evaluation end ---
+
+--- version  4  evaluation start ---
+file exists:  ./save/pems04_scinet_point_in12_out12_addtimeFalse_adjTrue_lr0.001_hc32_train0.6_val0.2_test0.2_seedNone_lossmasked_mse_version4_note:/scinet_point.pt
+********************
+Version: 4 Start Testing :
+| 3  Horizon | RMSE: 30.439, 29.977; MAE: 19.236, 19.128; MAPE: 11.501, 11.608;
+| 6  Horizon | RMSE: 31.618, 31.300; MAE: 19.970, 19.952; MAPE: 12.030, 12.068;
+| 12 Horizon | RMSE: 34.058, 34.126; MAE: 21.910, 22.086; MAPE: 13.262, 13.351;
+--- version  4  evaluation end ---
+
+****************************************
+****************************************
+****************************************
+Results in Test Dataset in Each Horizon with All Version Average:
+scinet_point  :
+=        =        Horizon  3        =        =        =        =        Horizon  6        =        =        =        =        Horizon  12       =        =       
+RMSE     MAE      MAPE     Q10      Q50      Q90      RMSE     MAE      MAPE     Q10      Q50      Q90      RMSE     MAE      MAPE     Q10      Q50      Q90     
+29.981   19.140   11.652   0.000    0.000    0.000    31.319   19.997   12.104   0.000    0.000    0.000    34.161   22.196   13.677   0.000    0.000    0.000   
+Model Multi Version Testing Ended ... Fri Feb  9 00:30:12 2024
+****************************************
+****************************************

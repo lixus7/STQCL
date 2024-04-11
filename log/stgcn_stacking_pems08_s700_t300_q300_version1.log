@@ -1,0 +1,715 @@
+nohup: ignoring input
+pdate shape is:  (17856,)
+./save/pems08_stgcn3_in12_out12_addtimeFalse_adjFalse_lr0.001_hc32_train0.6_val0.2_test0.2_seedNone_lossquantile_version1_note:stgcn_stacking_pems08_s700_t300_q300_ssize300_tsize300_qsize300 training started Wed Apr 10 21:46:07 2024
+pdate shape is:  (17856,)
+data load........
+initial data shape is:  (17856, 170, 3)
+train_mean shape : (170,)
+train  :  (10695, 24, 170, 3)
+val  :  (3566, 24, 170, 3)
+test  :  (3561, 24, 170, 3)
+Model Training Started ... Wed Apr 10 21:46:08 2024
+TIMESTEP_IN, TIMESTEP_OUT 12 12
+LOSS is : quantile
+CL target length = 1
+qcl init quantile loss is [0.010000000000000009, 0.5, 0.99]
+Quantile cl loss is [0.009999999999999995, 0.5, 0.99]
+Temporal CL length = 2
+Quantile cl loss is [0.020000000000000004, 0.5, 0.98]
+Temporal CL length = 3
+Quantile cl loss is [0.03, 0.5, 0.97]
+Temporal CL length = 4
+Spatial CL target length = 1
+Quantile cl loss is [0.04, 0.5, 0.96]
+Temporal CL length = 5
+In spatial CL model  Epoch 0: 
+| 3  Horizon | RMSE: 58.885, 57.980; MAE: 44.092, 43.723; MAPE: 43.445, 40.093; Q10: 15.948, 15.946; Q50: 22.046, 21.862; Q90: 8.749, 8.545;
+| 6  Horizon | RMSE: 60.935, 59.834; MAE: 45.931, 45.467; MAPE: 44.030, 40.768; Q10: 15.322, 15.381; Q50: 22.966, 22.734; Q90: 9.393, 9.114;
+| 12 Horizon | RMSE: 65.121, 64.075; MAE: 49.164, 48.894; MAPE: 46.328, 43.322; Q10: 14.918, 15.010; Q50: 24.582, 24.447; Q90: 10.746, 10.508;
+spatial CL model train loss: 19.174 val loss: 15.940537 test loss: 15.8145
+In quantile CL model  Epoch 0: 
+| 3  Horizon | RMSE: 28.652, 27.093; MAE: 19.188, 18.569; MAPE: 15.514, 13.258; Q10: 4.528, 4.377; Q50: 9.594, 9.284; Q90: 5.219, 5.029;
+| 6  Horizon | RMSE: 31.382, 29.722; MAE: 20.962, 20.237; MAPE: 16.648, 14.123; Q10: 4.861, 4.651; Q50: 10.481, 10.119; Q90: 5.480, 5.311;
+| 12 Horizon | RMSE: 36.277, 34.584; MAE: 24.328, 23.613; MAPE: 18.905, 15.841; Q10: 5.755, 5.502; Q50: 12.164, 11.807; Q90: 6.773, 6.648;
+quantile CL model train loss: 19.174 val loss: 7.068864 test loss: 6.84338
+In temporal CL model  Epoch 0: 
+| 3  Horizon | RMSE: 28.436, 26.957; MAE: 18.943, 18.312; MAPE: 14.277, 12.477; Q10: 4.613, 4.407; Q50: 9.471, 9.156; Q90: 4.428, 4.253;
+| 6  Horizon | RMSE: 113.053, 112.214; MAE: 89.969, 89.503; MAPE: 90.305, 84.788; Q10: 43.893, 44.433; Q50: 44.985, 44.751; Q90: 46.076, 45.070;
+| 12 Horizon | RMSE: 112.934, 112.216; MAE: 89.884, 89.511; MAPE: 89.814, 85.004; Q10: 43.668, 44.595; Q50: 44.942, 44.755; Q90: 46.216, 44.916;
+temporal CL model train loss: 19.174 val loss: 28.818682 test loss: 28.600681
+epoch 0 time used: 109  seconds  train loss: 19.174 val loss: 28.818682 test loss: 28.600681
+Quantile cl loss is [0.05, 0.5, 0.95]
+Temporal CL length = 6
+Spatial CL target length = 2
+Quantile cl loss is [0.06000000000000001, 0.5, 0.94]
+Temporal CL length = 7
+Quantile cl loss is [0.07, 0.5, 0.9299999999999999]
+Temporal CL length = 8
+Spatial CL target length = 3
+Quantile cl loss is [0.08, 0.5, 0.92]
+Temporal CL length = 9
+In spatial CL model  Epoch 1: 
+| 3  Horizon | RMSE: 27.492, 26.015; MAE: 17.905, 17.320; MAPE: 13.237, 11.156; Q10: 4.295, 4.062; Q50: 8.952, 8.660; Q90: 4.365, 4.213;
+| 6  Horizon | RMSE: 31.014, 29.302; MAE: 20.115, 19.343; MAPE: 14.396, 12.011; Q10: 4.597, 4.353; Q50: 10.058, 9.672; Q90: 5.126, 4.907;
+| 12 Horizon | RMSE: 38.444, 36.424; MAE: 25.616, 24.525; MAPE: 17.884, 14.868; Q10: 5.523, 5.203; Q50: 12.808, 12.263; Q90: 6.566, 6.254;
+spatial CL model train loss: 16.867 val loss: 6.786088 test loss: 6.49707
+In quantile CL model  Epoch 1: 
+| 3  Horizon | RMSE: 26.631, 25.669; MAE: 17.543, 17.323; MAPE: 12.037, 10.811; Q10: 4.137, 4.057; Q50: 8.772, 8.662; Q90: 4.133, 4.068;
+| 6  Horizon | RMSE: 29.709, 28.722; MAE: 19.712, 19.414; MAPE: 13.769, 12.117; Q10: 4.527, 4.415; Q50: 9.856, 9.707; Q90: 4.812, 4.750;
+| 12 Horizon | RMSE: 36.283, 35.024; MAE: 24.356, 23.786; MAPE: 17.095, 14.559; Q10: 5.305, 5.104; Q50: 12.178, 11.893; Q90: 5.760, 5.742;
+quantile CL model train loss: 16.867 val loss: 6.47822 test loss: 6.370186
+In temporal CL model  Epoch 1: 
+| 3  Horizon | RMSE: 26.761, 25.276; MAE: 17.363, 16.737; MAPE: 12.090, 10.405; Q10: 4.046, 3.900; Q50: 8.682, 8.368; Q90: 4.205, 4.013;
+| 6  Horizon | RMSE: 30.842, 29.191; MAE: 20.146, 19.285; MAPE: 13.818, 11.629; Q10: 4.518, 4.309; Q50: 10.073, 9.642; Q90: 5.040, 4.762;
+| 12 Horizon | RMSE: 112.954, 112.216; MAE: 89.901, 89.511; MAPE: 89.837, 85.004; Q10: 43.669, 44.595; Q50: 44.950, 44.755; Q90: 46.232, 44.916;
+temporal CL model train loss: 16.867 val loss: 15.973363 test loss: 15.719745
+epoch 1 time used: 117  seconds  train loss: 16.867 val loss: 15.973363 test loss: 15.719745
+Quantile cl loss is [0.09, 0.5, 0.91]
+Temporal CL length = 10
+Quantile cl loss is [0.1, 0.5, 0.9]
+Temporal CL length = 11
+Spatial CL target length = 4
+Temporal CL length = 12
+Temporal CL length = 13
+Spatial CL target length = 5
+In spatial CL model  Epoch 2: 
+| 3  Horizon | RMSE: 26.743, 25.458; MAE: 17.399, 16.884; MAPE: 12.571, 10.913; Q10: 4.083, 3.907; Q50: 8.699, 8.442; Q90: 4.130, 4.005;
+| 6  Horizon | RMSE: 29.318, 27.948; MAE: 18.998, 18.419; MAPE: 13.788, 11.885; Q10: 4.474, 4.270; Q50: 9.499, 9.209; Q90: 4.552, 4.418;
+| 12 Horizon | RMSE: 34.372, 32.884; MAE: 22.667, 22.031; MAPE: 16.802, 14.387; Q10: 5.158, 4.906; Q50: 11.334, 11.015; Q90: 5.404, 5.268;
+spatial CL model train loss: 17.732 val loss: 6.246073 test loss: 6.039435
+In quantile CL model  Epoch 2: 
+| 3  Horizon | RMSE: 25.875, 24.792; MAE: 16.687, 16.351; MAPE: 11.948, 10.422; Q10: 3.921, 3.804; Q50: 8.344, 8.176; Q90: 3.921, 3.828;
+| 6  Horizon | RMSE: 28.259, 27.249; MAE: 18.135, 17.817; MAPE: 13.406, 11.369; Q10: 4.282, 4.146; Q50: 9.067, 8.908; Q90: 4.304, 4.251;
+| 12 Horizon | RMSE: 33.024, 31.959; MAE: 21.358, 21.029; MAPE: 16.427, 13.368; Q10: 4.978, 4.795; Q50: 10.679, 10.514; Q90: 5.176, 5.166;
+quantile CL model train loss: 17.732 val loss: 5.961271 test loss: 5.847359
+In temporal CL model  Epoch 2: 
+| 3  Horizon | RMSE: 26.474, 25.094; MAE: 17.048, 16.564; MAPE: 12.504, 10.778; Q10: 3.967, 3.835; Q50: 8.524, 8.282; Q90: 4.086, 3.931;
+| 6  Horizon | RMSE: 28.869, 27.478; MAE: 18.555, 18.013; MAPE: 13.805, 11.645; Q10: 4.333, 4.171; Q50: 9.277, 9.007; Q90: 4.448, 4.295;
+| 12 Horizon | RMSE: 33.895, 32.367; MAE: 22.032, 21.386; MAPE: 16.575, 13.543; Q10: 5.071, 4.875; Q50: 11.016, 10.693; Q90: 5.440, 5.266;
+temporal CL model train loss: 17.732 val loss: 6.116355 test loss: 5.923942
+epoch 2 time used: 121  seconds  train loss: 17.732 val loss: 6.116355 test loss: 5.923942
+Spatial CL target length = 6
+Spatial CL target length = 7
+In spatial CL model  Epoch 3: 
+| 3  Horizon | RMSE: 26.130, 24.917; MAE: 17.026, 16.543; MAPE: 12.881, 11.097; Q10: 3.979, 3.790; Q50: 8.513, 8.271; Q90: 4.022, 3.892;
+| 6  Horizon | RMSE: 28.521, 27.284; MAE: 18.463, 17.966; MAPE: 13.836, 11.819; Q10: 4.365, 4.157; Q50: 9.232, 8.983; Q90: 4.376, 4.253;
+| 12 Horizon | RMSE: 32.890, 31.615; MAE: 21.404, 20.916; MAPE: 16.221, 13.699; Q10: 5.006, 4.743; Q50: 10.702, 10.458; Q90: 5.138, 5.043;
+spatial CL model train loss: 16.901 val loss: 6.054218 test loss: 5.865865
+In quantile CL model  Epoch 3: 
+| 3  Horizon | RMSE: 25.341, 24.326; MAE: 16.271, 15.961; MAPE: 11.969, 10.291; Q10: 3.873, 3.765; Q50: 8.136, 7.981; Q90: 3.818, 3.718;
+| 6  Horizon | RMSE: 27.638, 26.852; MAE: 17.609, 17.455; MAPE: 13.422, 11.264; Q10: 4.186, 4.092; Q50: 8.805, 8.727; Q90: 4.170, 4.123;
+| 12 Horizon | RMSE: 31.800, 30.942; MAE: 20.313, 20.132; MAPE: 16.043, 12.872; Q10: 4.855, 4.707; Q50: 10.157, 10.066; Q90: 4.883, 4.888;
+quantile CL model train loss: 16.901 val loss: 5.776251 test loss: 5.698274
+In temporal CL model  Epoch 3: 
+| 3  Horizon | RMSE: 25.825, 24.599; MAE: 16.723, 16.398; MAPE: 13.313, 11.424; Q10: 3.914, 3.762; Q50: 8.361, 8.199; Q90: 3.924, 3.823;
+| 6  Horizon | RMSE: 28.039, 26.904; MAE: 18.050, 17.766; MAPE: 14.117, 11.964; Q10: 4.300, 4.152; Q50: 9.025, 8.883; Q90: 4.275, 4.191;
+| 12 Horizon | RMSE: 32.027, 30.799; MAE: 20.673, 20.337; MAPE: 16.317, 13.440; Q10: 4.876, 4.667; Q50: 10.336, 10.169; Q90: 4.969, 4.896;
+temporal CL model train loss: 16.901 val loss: 5.899474 test loss: 5.775269
+epoch 3 time used: 121  seconds  train loss: 16.901 val loss: 5.899474 test loss: 5.775269
+Spatial CL target length = 8
+Spatial CL target length = 9
+In spatial CL model  Epoch 4: 
+| 3  Horizon | RMSE: 25.806, 24.811; MAE: 16.802, 16.498; MAPE: 12.222, 10.655; Q10: 3.973, 3.832; Q50: 8.401, 8.249; Q90: 4.062, 3.992;
+| 6  Horizon | RMSE: 28.126, 27.205; MAE: 18.165, 17.914; MAPE: 13.432, 11.666; Q10: 4.315, 4.171; Q50: 9.082, 8.957; Q90: 4.309, 4.262;
+| 12 Horizon | RMSE: 33.245, 32.544; MAE: 21.779, 21.637; MAPE: 15.479, 13.382; Q10: 4.954, 4.764; Q50: 10.889, 10.818; Q90: 5.293, 5.373;
+spatial CL model train loss: 16.507 val loss: 6.01523 test loss: 5.921678
+In quantile CL model  Epoch 4: 
+| 3  Horizon | RMSE: 25.478, 24.576; MAE: 16.619, 16.429; MAPE: 12.346, 10.725; Q10: 3.871, 3.764; Q50: 8.310, 8.214; Q90: 3.937, 3.898;
+| 6  Horizon | RMSE: 28.025, 27.316; MAE: 18.008, 17.916; MAPE: 13.938, 11.844; Q10: 4.262, 4.164; Q50: 9.004, 8.958; Q90: 4.285, 4.285;
+| 12 Horizon | RMSE: 33.507, 32.933; MAE: 21.883, 21.819; MAPE: 16.403, 13.403; Q10: 4.911, 4.744; Q50: 10.942, 10.910; Q90: 5.748, 5.878;
+quantile CL model train loss: 16.507 val loss: 6.020221 test loss: 5.980097
+In temporal CL model  Epoch 4: 
+| 3  Horizon | RMSE: 25.622, 24.466; MAE: 16.547, 16.171; MAPE: 12.135, 10.504; Q10: 3.897, 3.738; Q50: 8.274, 8.085; Q90: 3.922, 3.855;
+| 6  Horizon | RMSE: 28.079, 27.084; MAE: 18.027, 17.811; MAPE: 13.859, 12.094; Q10: 4.237, 4.089; Q50: 9.014, 8.905; Q90: 4.282, 4.252;
+| 12 Horizon | RMSE: 32.472, 31.716; MAE: 21.148, 21.063; MAPE: 15.903, 13.538; Q10: 4.928, 4.798; Q50: 10.574, 10.531; Q90: 5.304, 5.418;
+temporal CL model train loss: 16.507 val loss: 5.918988 test loss: 5.836631
+epoch 4 time used: 121  seconds  train loss: 16.507 val loss: 5.918988 test loss: 5.836631
+Spatial CL target length = 10
+In spatial CL model  Epoch 5: 
+| 3  Horizon | RMSE: 25.581, 24.576; MAE: 16.650, 16.275; MAPE: 11.612, 10.294; Q10: 3.909, 3.788; Q50: 8.325, 8.137; Q90: 3.885, 3.766;
+| 6  Horizon | RMSE: 27.867, 26.914; MAE: 18.008, 17.629; MAPE: 12.760, 11.099; Q10: 4.252, 4.122; Q50: 9.004, 8.814; Q90: 4.377, 4.242;
+| 12 Horizon | RMSE: 32.391, 31.333; MAE: 21.016, 20.523; MAPE: 15.236, 12.897; Q10: 4.853, 4.674; Q50: 10.508, 10.262; Q90: 5.072, 4.982;
+spatial CL model train loss: 16.02 val loss: 5.888252 test loss: 5.743948
+In quantile CL model  Epoch 5: 
+| 3  Horizon | RMSE: 25.164, 24.285; MAE: 16.281, 16.044; MAPE: 11.726, 10.174; Q10: 3.839, 3.761; Q50: 8.141, 8.022; Q90: 3.792, 3.705;
+| 6  Horizon | RMSE: 27.632, 26.933; MAE: 17.588, 17.467; MAPE: 12.966, 10.919; Q10: 4.141, 4.070; Q50: 8.794, 8.733; Q90: 4.291, 4.276;
+| 12 Horizon | RMSE: 32.551, 31.689; MAE: 20.726, 20.528; MAPE: 15.757, 12.652; Q10: 4.845, 4.680; Q50: 10.363, 10.264; Q90: 5.050, 5.046;
+quantile CL model train loss: 16.02 val loss: 5.791927 test loss: 5.726167
+In temporal CL model  Epoch 5: 
+| 3  Horizon | RMSE: 25.345, 24.165; MAE: 16.314, 15.829; MAPE: 11.852, 9.984; Q10: 3.831, 3.691; Q50: 8.157, 7.915; Q90: 3.861, 3.716;
+| 6  Horizon | RMSE: 27.491, 26.443; MAE: 17.567, 17.186; MAPE: 13.057, 10.803; Q10: 4.140, 4.003; Q50: 8.784, 8.593; Q90: 4.241, 4.109;
+| 12 Horizon | RMSE: 31.713, 30.478; MAE: 20.390, 19.928; MAPE: 15.592, 12.481; Q10: 4.767, 4.601; Q50: 10.195, 9.964; Q90: 4.985, 4.884;
+temporal CL model train loss: 16.02 val loss: 5.765284 test loss: 5.618209
+epoch 5 time used: 120  seconds  train loss: 16.02 val loss: 5.765284 test loss: 5.618209
+In spatial CL model  Epoch 6: 
+| 3  Horizon | RMSE: 25.204, 24.226; MAE: 16.209, 15.908; MAPE: 11.166, 9.909; Q10: 3.815, 3.690; Q50: 8.105, 7.954; Q90: 3.761, 3.673;
+| 6  Horizon | RMSE: 27.270, 26.303; MAE: 17.351, 17.039; MAPE: 12.410, 10.819; Q10: 4.193, 4.037; Q50: 8.676, 8.520; Q90: 4.082, 4.011;
+| 12 Horizon | RMSE: 31.196, 30.200; MAE: 20.016, 19.650; MAPE: 14.521, 12.388; Q10: 4.736, 4.535; Q50: 10.008, 9.825; Q90: 4.838, 4.818;
+spatial CL model train loss: 15.844 val loss: 5.69069 test loss: 5.5722
+In quantile CL model  Epoch 6: 
+| 3  Horizon | RMSE: 24.844, 23.904; MAE: 15.876, 15.584; MAPE: 11.398, 9.761; Q10: 3.737, 3.629; Q50: 7.938, 7.792; Q90: 3.707, 3.622;
+| 6  Horizon | RMSE: 26.967, 26.094; MAE: 17.005, 16.795; MAPE: 12.754, 10.678; Q10: 4.054, 3.962; Q50: 8.502, 8.398; Q90: 4.050, 4.001;
+| 12 Horizon | RMSE: 30.846, 29.954; MAE: 19.621, 19.434; MAPE: 15.177, 12.222; Q10: 4.640, 4.506; Q50: 9.811, 9.717; Q90: 4.751, 4.759;
+quantile CL model train loss: 15.844 val loss: 5.579591 test loss: 5.49757
+In temporal CL model  Epoch 6: 
+| 3  Horizon | RMSE: 25.213, 24.116; MAE: 16.135, 15.725; MAPE: 11.646, 9.864; Q10: 3.799, 3.664; Q50: 8.067, 7.863; Q90: 3.796, 3.712;
+| 6  Horizon | RMSE: 27.263, 26.185; MAE: 17.273, 16.908; MAPE: 12.877, 10.697; Q10: 4.111, 3.953; Q50: 8.636, 8.454; Q90: 4.118, 4.042;
+| 12 Horizon | RMSE: 31.418, 30.216; MAE: 20.106, 19.662; MAPE: 15.219, 12.117; Q10: 4.667, 4.473; Q50: 10.053, 9.831; Q90: 4.920, 4.896;
+temporal CL model train loss: 15.844 val loss: 5.694162 test loss: 5.566843
+epoch 6 time used: 119  seconds  train loss: 15.844 val loss: 5.694162 test loss: 5.566843
+In spatial CL model  Epoch 7: 
+| 3  Horizon | RMSE: 25.136, 24.104; MAE: 16.110, 15.814; MAPE: 11.396, 10.144; Q10: 3.845, 3.725; Q50: 8.055, 7.907; Q90: 3.751, 3.663;
+| 6  Horizon | RMSE: 27.391, 26.429; MAE: 17.410, 17.148; MAPE: 12.831, 11.283; Q10: 4.157, 4.024; Q50: 8.705, 8.574; Q90: 4.126, 4.063;
+| 12 Horizon | RMSE: 31.130, 30.278; MAE: 19.817, 19.657; MAPE: 14.862, 12.898; Q10: 4.708, 4.528; Q50: 9.909, 9.828; Q90: 4.837, 4.867;
+spatial CL model train loss: 15.66 val loss: 5.691267 test loss: 5.59303
+In quantile CL model  Epoch 7: 
+| 3  Horizon | RMSE: 24.709, 23.735; MAE: 15.738, 15.484; MAPE: 11.680, 9.984; Q10: 3.720, 3.607; Q50: 7.869, 7.742; Q90: 3.753, 3.683;
+| 6  Horizon | RMSE: 26.946, 26.136; MAE: 16.988, 16.886; MAPE: 13.203, 11.174; Q10: 4.026, 3.947; Q50: 8.494, 8.443; Q90: 4.093, 4.065;
+| 12 Horizon | RMSE: 30.915, 30.161; MAE: 19.481, 19.455; MAPE: 15.475, 12.624; Q10: 4.627, 4.508; Q50: 9.741, 9.727; Q90: 4.939, 4.959;
+quantile CL model train loss: 15.66 val loss: 5.589844 test loss: 5.531605
+In temporal CL model  Epoch 7: 
+| 3  Horizon | RMSE: 25.321, 24.141; MAE: 16.175, 15.814; MAPE: 12.106, 10.303; Q10: 3.833, 3.674; Q50: 8.087, 7.907; Q90: 3.830, 3.754;
+| 6  Horizon | RMSE: 27.429, 26.388; MAE: 17.368, 17.177; MAPE: 13.659, 11.501; Q10: 4.116, 3.976; Q50: 8.684, 8.589; Q90: 4.172, 4.148;
+| 12 Horizon | RMSE: 31.064, 30.144; MAE: 19.756, 19.702; MAPE: 15.722, 12.734; Q10: 4.666, 4.519; Q50: 9.878, 9.851; Q90: 4.867, 4.936;
+temporal CL model train loss: 15.66 val loss: 5.696362 test loss: 5.611659
+epoch 7 time used: 118  seconds  train loss: 15.66 val loss: 5.696362 test loss: 5.611659
+In spatial CL model  Epoch 8: 
+| 3  Horizon | RMSE: 25.167, 24.127; MAE: 16.152, 15.826; MAPE: 11.268, 10.028; Q10: 3.860, 3.729; Q50: 8.076, 7.913; Q90: 3.756, 3.665;
+| 6  Horizon | RMSE: 27.330, 26.390; MAE: 17.438, 17.132; MAPE: 12.336, 10.808; Q10: 4.154, 4.009; Q50: 8.719, 8.566; Q90: 4.128, 4.058;
+| 12 Horizon | RMSE: 31.281, 30.225; MAE: 20.054, 19.642; MAPE: 14.398, 12.257; Q10: 4.718, 4.524; Q50: 10.027, 9.821; Q90: 4.880, 4.840;
+spatial CL model train loss: 15.523 val loss: 5.703756 test loss: 5.582877
+In quantile CL model  Epoch 8: 
+| 3  Horizon | RMSE: 24.640, 23.710; MAE: 15.708, 15.460; MAPE: 11.719, 9.925; Q10: 3.726, 3.617; Q50: 7.854, 7.730; Q90: 3.696, 3.618;
+| 6  Horizon | RMSE: 26.993, 26.176; MAE: 17.079, 16.917; MAPE: 12.943, 10.760; Q10: 4.025, 3.935; Q50: 8.540, 8.458; Q90: 4.047, 4.010;
+| 12 Horizon | RMSE: 31.394, 30.279; MAE: 20.033, 19.646; MAPE: 15.405, 12.142; Q10: 4.653, 4.494; Q50: 10.017, 9.823; Q90: 4.968, 4.886;
+quantile CL model train loss: 15.523 val loss: 5.615804 test loss: 5.526129
+In temporal CL model  Epoch 8: 
+| 3  Horizon | RMSE: 25.221, 24.159; MAE: 16.146, 15.844; MAPE: 11.849, 10.105; Q10: 3.828, 3.692; Q50: 8.073, 7.922; Q90: 3.805, 3.736;
+| 6  Horizon | RMSE: 27.333, 26.458; MAE: 17.330, 17.229; MAPE: 13.107, 11.012; Q10: 4.110, 3.979; Q50: 8.665, 8.614; Q90: 4.137, 4.131;
+| 12 Horizon | RMSE: 31.230, 30.363; MAE: 20.025, 19.921; MAPE: 15.321, 12.306; Q10: 4.678, 4.527; Q50: 10.013, 9.960; Q90: 4.911, 5.000;
+temporal CL model train loss: 15.523 val loss: 5.695548 test loss: 5.629568
+epoch 8 time used: 118  seconds  train loss: 15.523 val loss: 5.695548 test loss: 5.629568
+In spatial CL model  Epoch 9: 
+| 3  Horizon | RMSE: 25.060, 23.984; MAE: 16.002, 15.680; MAPE: 11.287, 9.886; Q10: 3.814, 3.677; Q50: 8.001, 7.840; Q90: 3.723, 3.634;
+| 6  Horizon | RMSE: 27.276, 26.221; MAE: 17.279, 16.942; MAPE: 12.679, 10.895; Q10: 4.173, 4.003; Q50: 8.639, 8.471; Q90: 4.032, 3.948;
+| 12 Horizon | RMSE: 30.940, 29.855; MAE: 19.681, 19.387; MAPE: 14.929, 12.531; Q10: 4.762, 4.556; Q50: 9.841, 9.694; Q90: 4.728, 4.701;
+spatial CL model train loss: 15.395 val loss: 5.673183 test loss: 5.544399
+In quantile CL model  Epoch 9: 
+| 3  Horizon | RMSE: 24.560, 23.625; MAE: 15.585, 15.307; MAPE: 11.621, 9.701; Q10: 3.736, 3.624; Q50: 7.793, 7.654; Q90: 3.661, 3.576;
+| 6  Horizon | RMSE: 26.823, 25.964; MAE: 16.909, 16.712; MAPE: 13.268, 10.938; Q10: 4.046, 3.956; Q50: 8.455, 8.356; Q90: 3.973, 3.915;
+| 12 Horizon | RMSE: 30.679, 29.705; MAE: 19.425, 19.248; MAPE: 15.887, 12.657; Q10: 4.697, 4.557; Q50: 9.712, 9.624; Q90: 4.705, 4.662;
+quantile CL model train loss: 15.395 val loss: 5.570508 test loss: 5.487912
+In temporal CL model  Epoch 9: 
+| 3  Horizon | RMSE: 25.237, 24.104; MAE: 16.052, 15.734; MAPE: 12.036, 10.122; Q10: 3.832, 3.678; Q50: 8.026, 7.867; Q90: 3.790, 3.707;
+| 6  Horizon | RMSE: 27.457, 26.249; MAE: 17.291, 16.982; MAPE: 13.474, 11.079; Q10: 4.175, 4.005; Q50: 8.646, 8.491; Q90: 4.103, 4.035;
+| 12 Horizon | RMSE: 31.048, 29.670; MAE: 19.583, 19.293; MAPE: 16.032, 12.752; Q10: 4.681, 4.503; Q50: 9.791, 9.647; Q90: 4.742, 4.700;
+temporal CL model train loss: 15.395 val loss: 5.679562 test loss: 5.557009
+epoch 9 time used: 119  seconds  train loss: 15.395 val loss: 5.679562 test loss: 5.557009
+In spatial CL model  Epoch 10: 
+| 3  Horizon | RMSE: 25.768, 24.783; MAE: 16.683, 16.420; MAPE: 11.297, 9.987; Q10: 3.829, 3.712; Q50: 8.341, 8.210; Q90: 3.794, 3.710;
+| 6  Horizon | RMSE: 27.662, 26.659; MAE: 17.659, 17.310; MAPE: 12.346, 10.654; Q10: 4.133, 3.972; Q50: 8.829, 8.655; Q90: 4.212, 4.140;
+| 12 Horizon | RMSE: 31.577, 30.437; MAE: 20.200, 19.682; MAPE: 14.568, 12.174; Q10: 4.706, 4.482; Q50: 10.100, 9.841; Q90: 5.117, 5.069;
+spatial CL model train loss: 15.171 val loss: 5.781848 test loss: 5.652156
+In quantile CL model  Epoch 10: 
+| 3  Horizon | RMSE: 25.459, 24.512; MAE: 16.392, 16.075; MAPE: 11.780, 9.888; Q10: 3.781, 3.649; Q50: 8.196, 8.038; Q90: 3.747, 3.683;
+| 6  Horizon | RMSE: 27.359, 26.429; MAE: 17.304, 17.016; MAPE: 12.808, 10.557; Q10: 4.077, 3.958; Q50: 8.652, 8.508; Q90: 4.163, 4.110;
+| 12 Horizon | RMSE: 31.239, 30.151; MAE: 19.728, 19.401; MAPE: 15.226, 12.104; Q10: 4.661, 4.477; Q50: 9.864, 9.700; Q90: 5.078, 4.995;
+quantile CL model train loss: 15.171 val loss: 5.69016 test loss: 5.580459
+In temporal CL model  Epoch 10: 
+| 3  Horizon | RMSE: 25.608, 24.514; MAE: 16.444, 16.119; MAPE: 12.059, 9.986; Q10: 3.852, 3.695; Q50: 8.222, 8.060; Q90: 3.827, 3.748;
+| 6  Horizon | RMSE: 27.702, 26.548; MAE: 17.549, 17.175; MAPE: 13.297, 10.625; Q10: 4.172, 3.969; Q50: 8.775, 8.588; Q90: 4.198, 4.144;
+| 12 Horizon | RMSE: 31.316, 29.952; MAE: 19.780, 19.360; MAPE: 15.735, 12.086; Q10: 4.728, 4.487; Q50: 9.890, 9.680; Q90: 4.873, 4.856;
+temporal CL model train loss: 15.171 val loss: 5.738238 test loss: 5.607717
+epoch 10 time used: 118  seconds  train loss: 15.171 val loss: 5.738238 test loss: 5.607717
+In spatial CL model  Epoch 11: 
+| 3  Horizon | RMSE: 24.987, 23.915; MAE: 15.905, 15.601; MAPE: 11.175, 9.789; Q10: 3.772, 3.636; Q50: 7.953, 7.801; Q90: 3.706, 3.624;
+| 6  Horizon | RMSE: 27.111, 26.114; MAE: 17.090, 16.801; MAPE: 12.408, 10.616; Q10: 4.144, 3.987; Q50: 8.545, 8.400; Q90: 4.054, 3.998;
+| 12 Horizon | RMSE: 30.816, 29.809; MAE: 19.488, 19.230; MAPE: 14.689, 12.257; Q10: 4.628, 4.433; Q50: 9.744, 9.615; Q90: 4.863, 4.870;
+spatial CL model train loss: 15.091 val loss: 5.613262 test loss: 5.504396
+In quantile CL model  Epoch 11: 
+| 3  Horizon | RMSE: 24.538, 23.541; MAE: 15.571, 15.275; MAPE: 11.874, 9.854; Q10: 3.687, 3.571; Q50: 7.786, 7.637; Q90: 3.664, 3.579;
+| 6  Horizon | RMSE: 26.760, 25.913; MAE: 16.770, 16.620; MAPE: 12.970, 10.643; Q10: 4.053, 3.973; Q50: 8.385, 8.310; Q90: 3.998, 3.966;
+| 12 Horizon | RMSE: 30.914, 29.977; MAE: 19.456, 19.325; MAPE: 15.456, 12.261; Q10: 4.602, 4.452; Q50: 9.728, 9.662; Q90: 4.900, 4.890;
+quantile CL model train loss: 15.091 val loss: 5.536531 test loss: 5.458506
+In temporal CL model  Epoch 11: 
+| 3  Horizon | RMSE: 25.218, 24.015; MAE: 16.011, 15.638; MAPE: 12.028, 10.003; Q10: 3.810, 3.655; Q50: 8.005, 7.819; Q90: 3.783, 3.695;
+| 6  Horizon | RMSE: 27.420, 26.221; MAE: 17.193, 16.912; MAPE: 13.428, 10.977; Q10: 4.184, 4.036; Q50: 8.596, 8.456; Q90: 4.120, 4.083;
+| 12 Horizon | RMSE: 31.111, 29.804; MAE: 19.544, 19.377; MAPE: 15.993, 12.626; Q10: 4.680, 4.474; Q50: 9.772, 9.688; Q90: 4.829, 4.863;
+temporal CL model train loss: 15.091 val loss: 5.652169 test loss: 5.542511
+epoch 11 time used: 118  seconds  train loss: 15.091 val loss: 5.652169 test loss: 5.542511
+In spatial CL model  Epoch 12: 
+| 3  Horizon | RMSE: 25.034, 23.931; MAE: 15.977, 15.629; MAPE: 11.241, 9.873; Q10: 3.780, 3.649; Q50: 7.989, 7.815; Q90: 3.709, 3.614;
+| 6  Horizon | RMSE: 27.275, 26.260; MAE: 17.226, 16.904; MAPE: 12.508, 10.779; Q10: 4.115, 3.974; Q50: 8.613, 8.452; Q90: 4.032, 3.931;
+| 12 Horizon | RMSE: 31.082, 30.156; MAE: 19.755, 19.559; MAPE: 15.194, 12.940; Q10: 4.708, 4.563; Q50: 9.877, 9.779; Q90: 4.749, 4.704;
+spatial CL model train loss: 15.029 val loss: 5.635847 test loss: 5.521113
+In quantile CL model  Epoch 12: 
+| 3  Horizon | RMSE: 24.505, 23.561; MAE: 15.565, 15.308; MAPE: 11.862, 9.880; Q10: 3.713, 3.607; Q50: 7.783, 7.654; Q90: 3.656, 3.581;
+| 6  Horizon | RMSE: 26.838, 26.086; MAE: 16.864, 16.764; MAPE: 13.227, 10.981; Q10: 4.039, 3.972; Q50: 8.432, 8.382; Q90: 3.989, 3.945;
+| 12 Horizon | RMSE: 30.865, 30.112; MAE: 19.531, 19.502; MAPE: 15.987, 12.908; Q10: 4.690, 4.604; Q50: 9.766, 9.751; Q90: 4.777, 4.738;
+quantile CL model train loss: 15.029 val loss: 5.54879 test loss: 5.490737
+In temporal CL model  Epoch 12: 
+| 3  Horizon | RMSE: 25.392, 24.095; MAE: 16.195, 15.766; MAPE: 12.455, 10.304; Q10: 3.850, 3.683; Q50: 8.097, 7.883; Q90: 3.820, 3.712;
+| 6  Horizon | RMSE: 27.635, 26.405; MAE: 17.391, 17.068; MAPE: 13.718, 11.143; Q10: 4.194, 4.016; Q50: 8.696, 8.534; Q90: 4.122, 4.063;
+| 12 Horizon | RMSE: 31.336, 30.112; MAE: 19.739, 19.622; MAPE: 16.605, 13.247; Q10: 4.763, 4.595; Q50: 9.869, 9.811; Q90: 4.780, 4.770;
+temporal CL model train loss: 15.029 val loss: 5.710043 test loss: 5.590346
+epoch 12 time used: 119  seconds  train loss: 15.029 val loss: 5.710043 test loss: 5.590346
+In spatial CL model  Epoch 13: 
+| 3  Horizon | RMSE: 25.077, 23.980; MAE: 16.055, 15.711; MAPE: 11.210, 9.827; Q10: 3.817, 3.663; Q50: 8.027, 7.856; Q90: 3.791, 3.706;
+| 6  Horizon | RMSE: 27.212, 26.210; MAE: 17.218, 16.894; MAPE: 12.311, 10.543; Q10: 4.143, 3.969; Q50: 8.609, 8.447; Q90: 4.061, 3.977;
+| 12 Horizon | RMSE: 30.810, 29.781; MAE: 19.518, 19.192; MAPE: 14.519, 12.123; Q10: 4.646, 4.452; Q50: 9.759, 9.596; Q90: 4.734, 4.682;
+spatial CL model train loss: 14.975 val loss: 5.632777 test loss: 5.503561
+In quantile CL model  Epoch 13: 
+| 3  Horizon | RMSE: 24.603, 23.590; MAE: 15.581, 15.267; MAPE: 11.637, 9.702; Q10: 3.708, 3.588; Q50: 7.790, 7.634; Q90: 3.713, 3.628;
+| 6  Horizon | RMSE: 26.867, 26.004; MAE: 16.786, 16.611; MAPE: 12.881, 10.648; Q10: 4.013, 3.924; Q50: 8.393, 8.305; Q90: 4.017, 3.974;
+| 12 Horizon | RMSE: 30.995, 30.095; MAE: 19.485, 19.307; MAPE: 15.248, 12.280; Q10: 4.624, 4.486; Q50: 9.743, 9.654; Q90: 4.867, 4.812;
+quantile CL model train loss: 14.975 val loss: 5.543678 test loss: 5.458004
+In temporal CL model  Epoch 13: 
+| 3  Horizon | RMSE: 25.228, 24.067; MAE: 16.067, 15.693; MAPE: 12.013, 9.943; Q10: 3.823, 3.640; Q50: 8.034, 7.847; Q90: 3.812, 3.729;
+| 6  Horizon | RMSE: 27.434, 26.348; MAE: 17.243, 17.009; MAPE: 13.304, 10.881; Q10: 4.152, 3.964; Q50: 8.621, 8.504; Q90: 4.147, 4.136;
+| 12 Horizon | RMSE: 31.014, 29.760; MAE: 19.489, 19.281; MAPE: 15.776, 12.383; Q10: 4.686, 4.489; Q50: 9.745, 9.641; Q90: 4.780, 4.806;
+temporal CL model train loss: 14.975 val loss: 5.659804 test loss: 5.552443
+epoch 13 time used: 119  seconds  train loss: 14.975 val loss: 5.659804 test loss: 5.552443
+In spatial CL model  Epoch 14: 
+| 3  Horizon | RMSE: 25.084, 23.852; MAE: 15.954, 15.547; MAPE: 11.320, 9.784; Q10: 3.859, 3.670; Q50: 7.977, 7.774; Q90: 3.726, 3.634;
+| 6  Horizon | RMSE: 27.257, 26.094; MAE: 17.183, 16.789; MAPE: 12.666, 10.729; Q10: 4.295, 4.075; Q50: 8.591, 8.394; Q90: 4.031, 3.936;
+| 12 Horizon | RMSE: 30.837, 29.645; MAE: 19.448, 19.072; MAPE: 14.709, 12.165; Q10: 4.695, 4.462; Q50: 9.724, 9.536; Q90: 4.759, 4.699;
+spatial CL model train loss: 14.898 val loss: 5.634066 test loss: 5.477798
+In quantile CL model  Epoch 14: 
+| 3  Horizon | RMSE: 24.626, 23.553; MAE: 15.581, 15.263; MAPE: 11.845, 9.863; Q10: 3.723, 3.589; Q50: 7.791, 7.632; Q90: 3.696, 3.631;
+| 6  Horizon | RMSE: 26.939, 25.972; MAE: 16.881, 16.699; MAPE: 13.144, 10.872; Q10: 4.030, 3.933; Q50: 8.441, 8.350; Q90: 4.048, 4.000;
+| 12 Horizon | RMSE: 31.050, 29.961; MAE: 19.600, 19.374; MAPE: 15.449, 12.301; Q10: 4.628, 4.494; Q50: 9.800, 9.687; Q90: 4.939, 4.861;
+quantile CL model train loss: 14.898 val loss: 5.575454 test loss: 5.485072
+In temporal CL model  Epoch 14: 
+| 3  Horizon | RMSE: 25.361, 24.059; MAE: 16.092, 15.701; MAPE: 12.336, 10.214; Q10: 3.884, 3.698; Q50: 8.046, 7.851; Q90: 3.794, 3.715;
+| 6  Horizon | RMSE: 27.558, 26.361; MAE: 17.313, 17.108; MAPE: 13.736, 11.275; Q10: 4.202, 4.029; Q50: 8.656, 8.554; Q90: 4.123, 4.100;
+| 12 Horizon | RMSE: 31.186, 29.932; MAE: 19.602, 19.481; MAPE: 15.872, 12.395; Q10: 4.733, 4.538; Q50: 9.801, 9.740; Q90: 4.852, 4.920;
+temporal CL model train loss: 14.898 val loss: 5.702031 test loss: 5.604379
+epoch 14 time used: 119  seconds  train loss: 14.898 val loss: 5.702031 test loss: 5.604379
+In spatial CL model  Epoch 15: 
+| 3  Horizon | RMSE: 24.973, 23.814; MAE: 15.876, 15.526; MAPE: 11.528, 9.994; Q10: 3.782, 3.645; Q50: 7.938, 7.763; Q90: 3.697, 3.592;
+| 6  Horizon | RMSE: 27.194, 26.145; MAE: 17.110, 16.806; MAPE: 12.413, 10.568; Q10: 4.112, 3.951; Q50: 8.555, 8.403; Q90: 4.055, 3.970;
+| 12 Horizon | RMSE: 30.810, 29.687; MAE: 19.413, 19.114; MAPE: 14.444, 12.009; Q10: 4.629, 4.437; Q50: 9.707, 9.557; Q90: 4.792, 4.733;
+spatial CL model train loss: 14.764 val loss: 5.596958 test loss: 5.469828
+In quantile CL model  Epoch 15: 
+| 3  Horizon | RMSE: 24.643, 23.616; MAE: 15.634, 15.381; MAPE: 12.122, 10.149; Q10: 3.726, 3.632; Q50: 7.817, 7.690; Q90: 3.673, 3.599;
+| 6  Horizon | RMSE: 26.945, 25.974; MAE: 16.912, 16.703; MAPE: 13.083, 10.728; Q10: 4.032, 3.962; Q50: 8.456, 8.352; Q90: 4.110, 4.042;
+| 12 Horizon | RMSE: 31.118, 29.911; MAE: 19.683, 19.387; MAPE: 15.551, 12.283; Q10: 4.606, 4.476; Q50: 9.841, 9.693; Q90: 5.122, 4.974;
+quantile CL model train loss: 14.764 val loss: 5.591564 test loss: 5.49602
+In temporal CL model  Epoch 15: 
+| 3  Horizon | RMSE: 25.252, 23.975; MAE: 16.005, 15.666; MAPE: 12.307, 10.346; Q10: 3.843, 3.700; Q50: 8.003, 7.833; Q90: 3.769, 3.688;
+| 6  Horizon | RMSE: 27.463, 26.220; MAE: 17.163, 16.877; MAPE: 13.336, 10.839; Q10: 4.183, 4.010; Q50: 8.581, 8.439; Q90: 4.115, 4.083;
+| 12 Horizon | RMSE: 31.222, 29.734; MAE: 19.468, 19.204; MAPE: 15.904, 12.331; Q10: 4.723, 4.494; Q50: 9.734, 9.602; Q90: 4.818, 4.823;
+temporal CL model train loss: 14.764 val loss: 5.659444 test loss: 5.541607
+epoch 15 time used: 118  seconds  train loss: 14.764 val loss: 5.659444 test loss: 5.541607
+In spatial CL model  Epoch 16: 
+| 3  Horizon | RMSE: 24.846, 23.741; MAE: 15.810, 15.485; MAPE: 11.459, 9.847; Q10: 3.769, 3.616; Q50: 7.905, 7.742; Q90: 3.689, 3.609;
+| 6  Horizon | RMSE: 27.101, 26.098; MAE: 17.103, 16.827; MAPE: 12.407, 10.463; Q10: 4.098, 3.930; Q50: 8.551, 8.413; Q90: 4.026, 3.961;
+| 12 Horizon | RMSE: 30.646, 29.533; MAE: 19.320, 19.064; MAPE: 14.695, 12.088; Q10: 4.640, 4.443; Q50: 9.660, 9.532; Q90: 4.746, 4.712;
+spatial CL model train loss: 14.724 val loss: 5.576575 test loss: 5.45934
+In quantile CL model  Epoch 16: 
+| 3  Horizon | RMSE: 24.470, 23.498; MAE: 15.458, 15.218; MAPE: 12.012, 9.951; Q10: 3.687, 3.578; Q50: 7.729, 7.609; Q90: 3.641, 3.588;
+| 6  Horizon | RMSE: 26.817, 25.942; MAE: 16.788, 16.623; MAPE: 12.934, 10.476; Q10: 4.003, 3.906; Q50: 8.394, 8.312; Q90: 4.000, 3.964;
+| 12 Horizon | RMSE: 30.835, 29.849; MAE: 19.419, 19.271; MAPE: 15.468, 12.151; Q10: 4.606, 4.475; Q50: 9.710, 9.636; Q90: 4.875, 4.817;
+quantile CL model train loss: 14.724 val loss: 5.518363 test loss: 5.441789
+In temporal CL model  Epoch 16: 
+| 3  Horizon | RMSE: 25.206, 23.989; MAE: 16.003, 15.653; MAPE: 12.188, 10.106; Q10: 3.842, 3.661; Q50: 8.001, 7.827; Q90: 3.779, 3.720;
+| 6  Horizon | RMSE: 27.419, 26.263; MAE: 17.218, 16.916; MAPE: 13.271, 10.661; Q10: 4.174, 3.966; Q50: 8.609, 8.458; Q90: 4.093, 4.078;
+| 12 Horizon | RMSE: 31.140, 29.779; MAE: 19.464, 19.288; MAPE: 15.907, 12.387; Q10: 4.738, 4.493; Q50: 9.732, 9.644; Q90: 4.773, 4.801;
+temporal CL model train loss: 14.724 val loss: 5.653228 test loss: 5.533354
+epoch 16 time used: 119  seconds  train loss: 14.724 val loss: 5.653228 test loss: 5.533354
+In spatial CL model  Epoch 17: 
+| 3  Horizon | RMSE: 24.958, 23.892; MAE: 15.908, 15.593; MAPE: 11.241, 9.735; Q10: 3.774, 3.625; Q50: 7.954, 7.796; Q90: 3.708, 3.627;
+| 6  Horizon | RMSE: 27.107, 26.055; MAE: 17.061, 16.726; MAPE: 12.585, 10.629; Q10: 4.158, 3.964; Q50: 8.531, 8.363; Q90: 4.097, 4.060;
+| 12 Horizon | RMSE: 30.585, 29.531; MAE: 19.269, 19.031; MAPE: 14.810, 12.288; Q10: 4.662, 4.455; Q50: 9.634, 9.515; Q90: 4.717, 4.696;
+spatial CL model train loss: 14.676 val loss: 5.592869 test loss: 5.473578
+In quantile CL model  Epoch 17: 
+| 3  Horizon | RMSE: 24.698, 23.715; MAE: 15.677, 15.388; MAPE: 11.660, 9.645; Q10: 3.681, 3.569; Q50: 7.839, 7.694; Q90: 3.717, 3.661;
+| 6  Horizon | RMSE: 26.809, 25.880; MAE: 16.768, 16.576; MAPE: 12.957, 10.629; Q10: 4.000, 3.913; Q50: 8.384, 8.288; Q90: 4.097, 4.041;
+| 12 Horizon | RMSE: 30.765, 29.701; MAE: 19.403, 19.220; MAPE: 15.615, 12.438; Q10: 4.625, 4.523; Q50: 9.702, 9.610; Q90: 4.890, 4.789;
+quantile CL model train loss: 14.676 val loss: 5.553998 test loss: 5.469157
+In temporal CL model  Epoch 17: 
+| 3  Horizon | RMSE: 25.306, 24.195; MAE: 16.116, 15.776; MAPE: 12.066, 9.916; Q10: 3.830, 3.662; Q50: 8.058, 7.888; Q90: 3.823, 3.801;
+| 6  Horizon | RMSE: 27.557, 26.446; MAE: 17.249, 16.988; MAPE: 13.380, 10.810; Q10: 4.213, 4.004; Q50: 8.625, 8.494; Q90: 4.196, 4.224;
+| 12 Horizon | RMSE: 31.244, 29.980; MAE: 19.476, 19.415; MAPE: 16.156, 12.753; Q10: 4.741, 4.544; Q50: 9.738, 9.708; Q90: 4.829, 4.902;
+temporal CL model train loss: 14.676 val loss: 5.689389 test loss: 5.605483
+epoch 17 time used: 118  seconds  train loss: 14.676 val loss: 5.689389 test loss: 5.605483
+In spatial CL model  Epoch 18: 
+| 3  Horizon | RMSE: 25.078, 23.894; MAE: 15.955, 15.583; MAPE: 11.356, 9.792; Q10: 3.801, 3.633; Q50: 7.977, 7.792; Q90: 3.718, 3.616;
+| 6  Horizon | RMSE: 27.301, 26.195; MAE: 17.215, 16.888; MAPE: 12.474, 10.531; Q10: 4.122, 3.943; Q50: 8.607, 8.444; Q90: 4.078, 3.996;
+| 12 Horizon | RMSE: 30.760, 29.588; MAE: 19.390, 19.070; MAPE: 14.496, 11.934; Q10: 4.628, 4.413; Q50: 9.695, 9.535; Q90: 4.788, 4.752;
+spatial CL model train loss: 14.657 val loss: 5.626877 test loss: 5.4929
+In quantile CL model  Epoch 18: 
+| 3  Horizon | RMSE: 24.523, 23.519; MAE: 15.461, 15.171; MAPE: 11.853, 9.779; Q10: 3.687, 3.582; Q50: 7.731, 7.585; Q90: 3.636, 3.565;
+| 6  Horizon | RMSE: 26.856, 25.953; MAE: 16.788, 16.599; MAPE: 12.936, 10.480; Q10: 3.998, 3.903; Q50: 8.394, 8.299; Q90: 4.008, 3.963;
+| 12 Horizon | RMSE: 30.887, 29.734; MAE: 19.459, 19.183; MAPE: 15.299, 11.914; Q10: 4.592, 4.442; Q50: 9.730, 9.592; Q90: 4.884, 4.805;
+quantile CL model train loss: 14.657 val loss: 5.535329 test loss: 5.44177
+In temporal CL model  Epoch 18: 
+| 3  Horizon | RMSE: 25.356, 24.062; MAE: 16.089, 15.652; MAPE: 12.155, 9.976; Q10: 3.858, 3.672; Q50: 8.044, 7.826; Q90: 3.795, 3.697;
+| 6  Horizon | RMSE: 27.589, 26.372; MAE: 17.272, 17.004; MAPE: 13.374, 10.817; Q10: 4.176, 3.978; Q50: 8.636, 8.502; Q90: 4.146, 4.134;
+| 12 Horizon | RMSE: 31.215, 29.773; MAE: 19.452, 19.244; MAPE: 15.749, 12.209; Q10: 4.708, 4.487; Q50: 9.726, 9.622; Q90: 4.832, 4.868;
+temporal CL model train loss: 14.657 val loss: 5.68484 test loss: 5.56574
+epoch 18 time used: 119  seconds  train loss: 14.657 val loss: 5.68484 test loss: 5.56574
+In spatial CL model  Epoch 19: 
+| 3  Horizon | RMSE: 25.019, 23.900; MAE: 15.926, 15.582; MAPE: 11.502, 9.900; Q10: 3.800, 3.637; Q50: 7.963, 7.791; Q90: 3.735, 3.649;
+| 6  Horizon | RMSE: 27.190, 26.136; MAE: 17.147, 16.853; MAPE: 12.600, 10.588; Q10: 4.187, 3.990; Q50: 8.573, 8.426; Q90: 4.160, 4.116;
+| 12 Horizon | RMSE: 30.621, 29.518; MAE: 19.345, 19.109; MAPE: 14.687, 12.039; Q10: 4.646, 4.447; Q50: 9.672, 9.554; Q90: 4.834, 4.816;
+spatial CL model train loss: 14.62 val loss: 5.63209 test loss: 5.510343
+In quantile CL model  Epoch 19: 
+| 3  Horizon | RMSE: 24.603, 23.656; MAE: 15.523, 15.304; MAPE: 11.939, 9.940; Q10: 3.681, 3.589; Q50: 7.762, 7.652; Q90: 3.694, 3.649;
+| 6  Horizon | RMSE: 27.048, 26.220; MAE: 16.975, 16.871; MAPE: 13.087, 10.705; Q10: 4.028, 3.964; Q50: 8.488, 8.435; Q90: 4.148, 4.125;
+| 12 Horizon | RMSE: 31.288, 30.330; MAE: 19.829, 19.754; MAPE: 15.873, 12.600; Q10: 4.679, 4.578; Q50: 9.914, 9.877; Q90: 5.144, 5.091;
+quantile CL model train loss: 14.62 val loss: 5.613762 test loss: 5.557877
+In temporal CL model  Epoch 19: 
+| 3  Horizon | RMSE: 25.468, 24.207; MAE: 16.165, 15.766; MAPE: 12.241, 10.175; Q10: 3.886, 3.689; Q50: 8.082, 7.883; Q90: 3.828, 3.761;
+| 6  Horizon | RMSE: 27.732, 26.520; MAE: 17.379, 17.122; MAPE: 13.561, 11.067; Q10: 4.243, 4.040; Q50: 8.690, 8.561; Q90: 4.215, 4.219;
+| 12 Horizon | RMSE: 31.362, 29.988; MAE: 19.569, 19.455; MAPE: 16.044, 12.556; Q10: 4.756, 4.515; Q50: 9.784, 9.728; Q90: 4.899, 4.956;
+temporal CL model train loss: 14.62 val loss: 5.72458 test loss: 5.610266
+epoch 19 time used: 117  seconds  train loss: 14.62 val loss: 5.72458 test loss: 5.610266
+In spatial CL model  Epoch 20: 
+| 3  Horizon | RMSE: 25.084, 23.900; MAE: 15.946, 15.556; MAPE: 11.394, 9.780; Q10: 3.827, 3.648; Q50: 7.973, 7.778; Q90: 3.715, 3.607;
+| 6  Horizon | RMSE: 27.300, 26.206; MAE: 17.195, 16.845; MAPE: 12.555, 10.542; Q10: 4.142, 3.952; Q50: 8.597, 8.423; Q90: 4.094, 3.996;
+| 12 Horizon | RMSE: 30.888, 29.778; MAE: 19.494, 19.222; MAPE: 14.796, 12.202; Q10: 4.669, 4.478; Q50: 9.747, 9.611; Q90: 4.923, 4.859;
+spatial CL model train loss: 14.519 val loss: 5.652817 test loss: 5.514891
+In quantile CL model  Epoch 20: 
+| 3  Horizon | RMSE: 24.515, 23.511; MAE: 15.423, 15.146; MAPE: 11.845, 9.786; Q10: 3.686, 3.584; Q50: 7.711, 7.573; Q90: 3.632, 3.571;
+| 6  Horizon | RMSE: 26.803, 25.929; MAE: 16.706, 16.551; MAPE: 12.999, 10.562; Q10: 4.010, 3.938; Q50: 8.353, 8.275; Q90: 4.003, 3.960;
+| 12 Horizon | RMSE: 30.820, 29.796; MAE: 19.411, 19.244; MAPE: 15.502, 12.166; Q10: 4.609, 4.502; Q50: 9.706, 9.622; Q90: 4.994, 4.934;
+quantile CL model train loss: 14.519 val loss: 5.538723 test loss: 5.464053
+In temporal CL model  Epoch 20: 
+| 3  Horizon | RMSE: 25.509, 24.081; MAE: 16.138, 15.682; MAPE: 12.397, 10.271; Q10: 3.928, 3.719; Q50: 8.069, 7.841; Q90: 3.790, 3.694;
+| 6  Horizon | RMSE: 27.674, 26.354; MAE: 17.282, 16.982; MAPE: 13.516, 10.956; Q10: 4.222, 4.020; Q50: 8.641, 8.491; Q90: 4.133, 4.098;
+| 12 Horizon | RMSE: 31.444, 29.898; MAE: 19.570, 19.347; MAPE: 16.086, 12.511; Q10: 4.767, 4.520; Q50: 9.785, 9.674; Q90: 4.903, 4.926;
+temporal CL model train loss: 14.519 val loss: 5.70572 test loss: 5.57417
+epoch 20 time used: 117  seconds  train loss: 14.519 val loss: 5.70572 test loss: 5.57417
+In spatial CL model  Epoch 21: 
+| 3  Horizon | RMSE: 24.973, 23.893; MAE: 15.889, 15.570; MAPE: 11.365, 9.762; Q10: 3.776, 3.621; Q50: 7.944, 7.785; Q90: 3.753, 3.682;
+| 6  Horizon | RMSE: 27.156, 26.110; MAE: 17.095, 16.805; MAPE: 12.476, 10.470; Q10: 4.114, 3.936; Q50: 8.548, 8.403; Q90: 4.130, 4.082;
+| 12 Horizon | RMSE: 30.683, 29.569; MAE: 19.369, 19.143; MAPE: 14.590, 11.986; Q10: 4.621, 4.435; Q50: 9.685, 9.571; Q90: 4.849, 4.818;
+spatial CL model train loss: 14.5 val loss: 5.615575 test loss: 5.500803
+In quantile CL model  Epoch 21: 
+| 3  Horizon | RMSE: 24.504, 23.491; MAE: 15.430, 15.150; MAPE: 11.825, 9.771; Q10: 3.682, 3.583; Q50: 7.715, 7.575; Q90: 3.646, 3.576;
+| 6  Horizon | RMSE: 26.869, 25.901; MAE: 16.735, 16.525; MAPE: 12.957, 10.460; Q10: 3.994, 3.899; Q50: 8.368, 8.263; Q90: 4.031, 3.966;
+| 12 Horizon | RMSE: 30.968, 29.718; MAE: 19.445, 19.180; MAPE: 15.494, 12.058; Q10: 4.607, 4.473; Q50: 9.723, 9.590; Q90: 4.947, 4.826;
+quantile CL model train loss: 14.5 val loss: 5.531192 test loss: 5.434207
+In temporal CL model  Epoch 21: 
+| 3  Horizon | RMSE: 25.352, 24.146; MAE: 16.065, 15.758; MAPE: 12.150, 10.093; Q10: 3.853, 3.676; Q50: 8.032, 7.879; Q90: 3.799, 3.745;
+| 6  Horizon | RMSE: 27.618, 26.386; MAE: 17.247, 17.015; MAPE: 13.454, 10.916; Q10: 4.206, 4.000; Q50: 8.624, 8.507; Q90: 4.173, 4.186;
+| 12 Horizon | RMSE: 31.390, 29.962; MAE: 19.532, 19.447; MAPE: 16.034, 12.532; Q10: 4.743, 4.513; Q50: 9.766, 9.724; Q90: 4.893, 4.972;
+***************************
+***************************
+temporal CL model  Early stopping at epoch: 21
+***************************
+***************************
+temporal CL model train loss: 14.5 val loss: 5.689072 test loss: 5.594397
+epoch 21 time used: 117  seconds  train loss: 14.5 val loss: 5.689072 test loss: 5.594397
+In spatial CL model  Epoch 22: 
+| 3  Horizon | RMSE: 25.087, 23.838; MAE: 15.952, 15.515; MAPE: 11.767, 10.011; Q10: 3.826, 3.642; Q50: 7.976, 7.758; Q90: 3.722, 3.613;
+| 6  Horizon | RMSE: 27.292, 26.080; MAE: 17.175, 16.779; MAPE: 12.864, 10.702; Q10: 4.193, 3.981; Q50: 8.588, 8.390; Q90: 4.111, 4.020;
+| 12 Horizon | RMSE: 30.931, 29.740; MAE: 19.528, 19.232; MAPE: 14.669, 11.997; Q10: 4.645, 4.440; Q50: 9.764, 9.616; Q90: 4.918, 4.861;
+spatial CL model train loss: 14.469 val loss: 5.656289 test loss: 5.509307
+In quantile CL model  Epoch 22: 
+| 3  Horizon | RMSE: 24.728, 23.727; MAE: 15.604, 15.389; MAPE: 12.215, 10.245; Q10: 3.711, 3.628; Q50: 7.802, 7.694; Q90: 3.686, 3.634;
+| 6  Horizon | RMSE: 27.117, 26.191; MAE: 16.945, 16.818; MAPE: 13.364, 10.970; Q10: 4.057, 4.001; Q50: 8.473, 8.409; Q90: 4.113, 4.065;
+| 12 Horizon | RMSE: 31.400, 30.283; MAE: 19.815, 19.638; MAPE: 15.675, 12.336; Q10: 4.626, 4.500; Q50: 9.908, 9.819; Q90: 5.154, 5.064;
+quantile CL model train loss: 14.469 val loss: 5.626956 test loss: 5.560489
+In temporal CL model  Epoch 22: 
+| 3  Horizon | RMSE: 25.342, 24.146; MAE: 16.061, 15.758; MAPE: 12.148, 10.093; Q10: 3.852, 3.676; Q50: 8.030, 7.879; Q90: 3.796, 3.745;
+| 6  Horizon | RMSE: 27.608, 26.386; MAE: 17.243, 17.015; MAPE: 13.460, 10.916; Q10: 4.205, 4.000; Q50: 8.621, 8.507; Q90: 4.171, 4.186;
+| 12 Horizon | RMSE: 31.384, 29.962; MAE: 19.530, 19.447; MAPE: 16.023, 12.532; Q10: 4.743, 4.513; Q50: 9.765, 9.724; Q90: 4.892, 4.972;
+temporal CL model train loss: 14.469 val loss: 5.688007 test loss: 5.594397
+epoch 22 time used: 80  seconds  train loss: 14.469 val loss: 5.688007 test loss: 5.594397
+In spatial CL model  Epoch 23: 
+| 3  Horizon | RMSE: 24.897, 23.718; MAE: 15.820, 15.410; MAPE: 11.521, 9.789; Q10: 3.835, 3.643; Q50: 7.910, 7.705; Q90: 3.691, 3.583;
+| 6  Horizon | RMSE: 27.119, 25.915; MAE: 17.043, 16.624; MAPE: 12.689, 10.507; Q10: 4.199, 3.974; Q50: 8.521, 8.312; Q90: 4.042, 3.944;
+| 12 Horizon | RMSE: 30.507, 29.188; MAE: 19.215, 18.839; MAPE: 14.763, 11.968; Q10: 4.709, 4.472; Q50: 9.608, 9.420; Q90: 4.764, 4.676;
+spatial CL model train loss: 14.449 val loss: 5.601131 test loss: 5.437303
+In quantile CL model  Epoch 23: 
+| 3  Horizon | RMSE: 24.549, 23.524; MAE: 15.510, 15.285; MAPE: 12.223, 10.101; Q10: 3.717, 3.625; Q50: 7.755, 7.643; Q90: 3.652, 3.593;
+| 6  Horizon | RMSE: 26.853, 25.852; MAE: 16.753, 16.539; MAPE: 13.227, 10.580; Q10: 4.036, 3.948; Q50: 8.376, 8.269; Q90: 4.085, 4.032;
+| 12 Horizon | RMSE: 30.962, 29.658; MAE: 19.478, 19.185; MAPE: 15.853, 12.176; Q10: 4.651, 4.512; Q50: 9.739, 9.592; Q90: 5.046, 4.924;
+quantile CL model train loss: 14.449 val loss: 5.570681 test loss: 5.479966
+In temporal CL model  Epoch 23: 
+| 3  Horizon | RMSE: 25.354, 24.146; MAE: 16.067, 15.758; MAPE: 12.155, 10.093; Q10: 3.854, 3.676; Q50: 8.034, 7.879; Q90: 3.799, 3.745;
+| 6  Horizon | RMSE: 27.616, 26.386; MAE: 17.248, 17.015; MAPE: 13.466, 10.916; Q10: 4.207, 4.000; Q50: 8.624, 8.507; Q90: 4.173, 4.186;
+| 12 Horizon | RMSE: 31.398, 29.962; MAE: 19.537, 19.447; MAPE: 16.035, 12.532; Q10: 4.745, 4.513; Q50: 9.769, 9.724; Q90: 4.894, 4.972;
+temporal CL model train loss: 14.449 val loss: 5.689853 test loss: 5.594397
+epoch 23 time used: 80  seconds  train loss: 14.449 val loss: 5.689853 test loss: 5.594397
+In spatial CL model  Epoch 24: 
+| 3  Horizon | RMSE: 25.068, 23.899; MAE: 15.939, 15.549; MAPE: 11.499, 9.824; Q10: 3.813, 3.632; Q50: 7.969, 7.775; Q90: 3.716, 3.622;
+| 6  Horizon | RMSE: 27.342, 26.191; MAE: 17.228, 16.851; MAPE: 12.878, 10.735; Q10: 4.166, 3.956; Q50: 8.614, 8.425; Q90: 4.104, 4.014;
+| 12 Horizon | RMSE: 31.049, 29.872; MAE: 19.587, 19.298; MAPE: 15.076, 12.384; Q10: 4.687, 4.474; Q50: 9.793, 9.649; Q90: 4.965, 4.908;
+spatial CL model train loss: 14.432 val loss: 5.664825 test loss: 5.517635
+In quantile CL model  Epoch 24: 
+| 3  Horizon | RMSE: 24.610, 23.652; MAE: 15.498, 15.289; MAPE: 12.029, 10.024; Q10: 3.691, 3.598; Q50: 7.749, 7.644; Q90: 3.653, 3.607;
+| 6  Horizon | RMSE: 27.070, 26.230; MAE: 16.929, 16.840; MAPE: 13.335, 10.935; Q10: 4.049, 3.991; Q50: 8.464, 8.420; Q90: 4.081, 4.044;
+| 12 Horizon | RMSE: 31.405, 30.390; MAE: 19.776, 19.709; MAPE: 16.051, 12.727; Q10: 4.666, 4.574; Q50: 9.888, 9.854; Q90: 5.211, 5.140;
+quantile CL model train loss: 14.432 val loss: 5.61232 test loss: 5.556381
+In temporal CL model  Epoch 24: 
+| 3  Horizon | RMSE: 25.365, 24.146; MAE: 16.076, 15.758; MAPE: 12.155, 10.093; Q10: 3.856, 3.676; Q50: 8.038, 7.879; Q90: 3.801, 3.745;
+| 6  Horizon | RMSE: 27.631, 26.386; MAE: 17.256, 17.015; MAPE: 13.465, 10.916; Q10: 4.209, 4.000; Q50: 8.628, 8.507; Q90: 4.175, 4.186;
+| 12 Horizon | RMSE: 31.402, 29.962; MAE: 19.541, 19.447; MAPE: 16.044, 12.532; Q10: 4.747, 4.513; Q50: 9.770, 9.724; Q90: 4.895, 4.972;
+temporal CL model train loss: 14.432 val loss: 5.692435 test loss: 5.594397
+epoch 24 time used: 78  seconds  train loss: 14.432 val loss: 5.692435 test loss: 5.594397
+In spatial CL model  Epoch 25: 
+| 3  Horizon | RMSE: 24.989, 23.804; MAE: 15.858, 15.475; MAPE: 11.573, 9.871; Q10: 3.808, 3.626; Q50: 7.929, 7.737; Q90: 3.699, 3.606;
+| 6  Horizon | RMSE: 27.196, 26.063; MAE: 17.077, 16.741; MAPE: 12.769, 10.637; Q10: 4.189, 3.976; Q50: 8.539, 8.370; Q90: 4.048, 3.962;
+| 12 Horizon | RMSE: 30.638, 29.468; MAE: 19.231, 18.964; MAPE: 14.753, 12.080; Q10: 4.705, 4.508; Q50: 9.615, 9.482; Q90: 4.799, 4.750;
+spatial CL model train loss: 14.364 val loss: 5.608653 test loss: 5.470665
+In quantile CL model  Epoch 25: 
+| 3  Horizon | RMSE: 24.624, 23.578; MAE: 15.467, 15.218; MAPE: 11.935, 9.849; Q10: 3.686, 3.585; Q50: 7.733, 7.609; Q90: 3.657, 3.591;
+| 6  Horizon | RMSE: 26.987, 26.031; MAE: 16.797, 16.669; MAPE: 13.195, 10.709; Q10: 4.036, 3.965; Q50: 8.399, 8.334; Q90: 4.033, 3.976;
+| 12 Horizon | RMSE: 30.952, 29.766; MAE: 19.424, 19.293; MAPE: 15.676, 12.314; Q10: 4.658, 4.566; Q50: 9.712, 9.647; Q90: 4.975, 4.887;
+quantile CL model train loss: 14.364 val loss: 5.551594 test loss: 5.47906
+In temporal CL model  Epoch 25: 
+| 3  Horizon | RMSE: 25.358, 24.146; MAE: 16.070, 15.758; MAPE: 12.143, 10.093; Q10: 3.854, 3.676; Q50: 8.035, 7.879; Q90: 3.800, 3.745;
+| 6  Horizon | RMSE: 27.620, 26.386; MAE: 17.248, 17.015; MAPE: 13.456, 10.916; Q10: 4.208, 4.000; Q50: 8.624, 8.507; Q90: 4.172, 4.186;
+| 12 Horizon | RMSE: 31.393, 29.962; MAE: 19.536, 19.447; MAPE: 16.033, 12.532; Q10: 4.745, 4.513; Q50: 9.768, 9.724; Q90: 4.892, 4.972;
+temporal CL model train loss: 14.364 val loss: 5.690219 test loss: 5.594397
+epoch 25 time used: 78  seconds  train loss: 14.364 val loss: 5.690219 test loss: 5.594397
+In spatial CL model  Epoch 26: 
+| 3  Horizon | RMSE: 24.948, 23.799; MAE: 15.846, 15.487; MAPE: 11.401, 9.725; Q10: 3.799, 3.621; Q50: 7.923, 7.744; Q90: 3.698, 3.615;
+| 6  Horizon | RMSE: 27.218, 26.081; MAE: 17.106, 16.766; MAPE: 12.566, 10.454; Q10: 4.181, 3.963; Q50: 8.553, 8.383; Q90: 4.089, 4.015;
+| 12 Horizon | RMSE: 30.754, 29.545; MAE: 19.319, 19.031; MAPE: 14.699, 11.951; Q10: 4.657, 4.438; Q50: 9.659, 9.515; Q90: 4.857, 4.800;
+***************************
+***************************
+spatial CL model  Early stopping at epoch: 26
+***************************
+***************************
+spatial CL model train loss: 14.353 val loss: 5.615461 test loss: 5.474665
+In quantile CL model  Epoch 26: 
+| 3  Horizon | RMSE: 24.585, 23.575; MAE: 15.487, 15.224; MAPE: 11.831, 9.708; Q10: 3.677, 3.569; Q50: 7.744, 7.612; Q90: 3.665, 3.610;
+| 6  Horizon | RMSE: 26.956, 26.011; MAE: 16.792, 16.618; MAPE: 13.033, 10.468; Q10: 4.031, 3.957; Q50: 8.396, 8.309; Q90: 4.080, 4.038;
+| 12 Horizon | RMSE: 31.049, 29.871; MAE: 19.480, 19.323; MAPE: 15.757, 12.259; Q10: 4.645, 4.536; Q50: 9.740, 9.661; Q90: 5.027, 4.943;
+***************************
+***************************
+quantile CL model  Early stopping at epoch: 26
+***************************
+***************************
+quantile CL model train loss: 14.353 val loss: 5.563085 test loss: 5.487191
+In temporal CL model  Epoch 26: 
+| 3  Horizon | RMSE: 25.350, 24.146; MAE: 16.064, 15.758; MAPE: 12.155, 10.093; Q10: 3.853, 3.676; Q50: 8.032, 7.879; Q90: 3.799, 3.745;
+| 6  Horizon | RMSE: 27.616, 26.386; MAE: 17.246, 17.015; MAPE: 13.468, 10.916; Q10: 4.206, 4.000; Q50: 8.623, 8.507; Q90: 4.173, 4.186;
+| 12 Horizon | RMSE: 31.390, 29.962; MAE: 19.531, 19.447; MAPE: 16.039, 12.532; Q10: 4.743, 4.513; Q50: 9.766, 9.724; Q90: 4.893, 4.972;
+temporal CL model train loss: 14.353 val loss: 5.689067 test loss: 5.594397
+epoch 26 time used: 75  seconds  train loss: 14.353 val loss: 5.689067 test loss: 5.594397
+***************************
+***************************
+stacking start: 
+***************************
+***************************
+In Stacking model  Epoch 0: 
+| 3  Horizon | RMSE: 24.290, 23.328; MAE: 15.371, 15.122; MAPE: 11.703, 9.812; Q10: 3.670, 3.550; Q50: 7.685, 7.561; Q90: 3.580, 3.495;
+| 6  Horizon | RMSE: 26.474, 25.627; MAE: 16.572, 16.402; MAPE: 12.667, 10.425; Q10: 3.982, 3.869; Q50: 8.286, 8.201; Q90: 3.921, 3.875;
+| 12 Horizon | RMSE: 30.139, 29.206; MAE: 18.955, 18.814; MAPE: 15.069, 12.049; Q10: 4.526, 4.402; Q50: 9.477, 9.407; Q90: 4.594, 4.569;
+----------val loss is :  5.426293 ----------test loss is :  5.344461
+In Stacking model  Epoch 1: 
+| 3  Horizon | RMSE: 24.247, 23.262; MAE: 15.314, 15.036; MAPE: 11.579, 9.678; Q10: 3.652, 3.538; Q50: 7.657, 7.518; Q90: 3.571, 3.496;
+| 6  Horizon | RMSE: 26.404, 25.544; MAE: 16.493, 16.303; MAPE: 12.594, 10.314; Q10: 3.959, 3.852; Q50: 8.246, 8.151; Q90: 3.916, 3.880;
+| 12 Horizon | RMSE: 30.023, 29.081; MAE: 18.837, 18.681; MAPE: 14.976, 11.891; Q10: 4.494, 4.366; Q50: 9.418, 9.340; Q90: 4.623, 4.600;
+----------val loss is :  5.4056 ----------test loss is :  5.323718
+In Stacking model  Epoch 2: 
+| 3  Horizon | RMSE: 24.253, 23.238; MAE: 15.316, 15.007; MAPE: 11.578, 9.658; Q10: 3.668, 3.533; Q50: 7.658, 7.504; Q90: 3.568, 3.496;
+| 6  Horizon | RMSE: 26.388, 25.487; MAE: 16.468, 16.242; MAPE: 12.593, 10.287; Q10: 3.972, 3.847; Q50: 8.234, 8.121; Q90: 3.906, 3.869;
+| 12 Horizon | RMSE: 29.947, 28.981; MAE: 18.768, 18.587; MAPE: 14.966, 11.850; Q10: 4.490, 4.347; Q50: 9.384, 9.293; Q90: 4.628, 4.602;
+----------val loss is :  5.40584 ----------test loss is :  5.312038
+In Stacking model  Epoch 3: 
+| 3  Horizon | RMSE: 24.243, 23.239; MAE: 15.308, 15.025; MAPE: 11.660, 9.751; Q10: 3.672, 3.561; Q50: 7.654, 7.513; Q90: 3.574, 3.505;
+| 6  Horizon | RMSE: 26.386, 25.499; MAE: 16.466, 16.269; MAPE: 12.638, 10.353; Q10: 3.978, 3.874; Q50: 8.233, 8.135; Q90: 3.910, 3.876;
+| 12 Horizon | RMSE: 29.971, 29.015; MAE: 18.798, 18.647; MAPE: 15.042, 11.949; Q10: 4.512, 4.387; Q50: 9.399, 9.323; Q90: 4.644, 4.622;
+----------val loss is :  5.407327 ----------test loss is :  5.327163
+In Stacking model  Epoch 4: 
+| 3  Horizon | RMSE: 24.320, 23.356; MAE: 15.420, 15.194; MAPE: 11.881, 9.987; Q10: 3.649, 3.539; Q50: 7.710, 7.597; Q90: 3.586, 3.504;
+| 6  Horizon | RMSE: 26.504, 25.658; MAE: 16.616, 16.472; MAPE: 12.813, 10.547; Q10: 3.955, 3.852; Q50: 8.308, 8.236; Q90: 3.932, 3.889;
+| 12 Horizon | RMSE: 30.150, 29.230; MAE: 19.012, 18.908; MAPE: 15.125, 12.186; Q10: 4.492, 4.364; Q50: 9.506, 9.454; Q90: 4.630, 4.600;
+----------val loss is :  5.428618 ----------test loss is :  5.353966
+In Stacking model  Epoch 5: 
+| 3  Horizon | RMSE: 24.370, 23.324; MAE: 15.493, 15.106; MAPE: 11.469, 9.527; Q10: 3.702, 3.557; Q50: 7.747, 7.553; Q90: 3.583, 3.491;
+| 6  Horizon | RMSE: 26.477, 25.554; MAE: 16.639, 16.332; MAPE: 12.570, 10.239; Q10: 3.999, 3.868; Q50: 8.320, 8.166; Q90: 3.914, 3.859;
+| 12 Horizon | RMSE: 29.915, 28.936; MAE: 18.783, 18.519; MAPE: 14.776, 11.629; Q10: 4.507, 4.360; Q50: 9.391, 9.260; Q90: 4.596, 4.555;
+----------val loss is :  5.444534 ----------test loss is :  5.329407
+In Stacking model  Epoch 6: 
+| 3  Horizon | RMSE: 24.241, 23.259; MAE: 15.321, 15.067; MAPE: 11.698, 9.810; Q10: 3.641, 3.515; Q50: 7.661, 7.533; Q90: 3.575, 3.508;
+| 6  Horizon | RMSE: 26.416, 25.546; MAE: 16.508, 16.336; MAPE: 12.658, 10.387; Q10: 3.947, 3.829; Q50: 8.254, 8.168; Q90: 3.909, 3.876;
+| 12 Horizon | RMSE: 30.023, 29.083; MAE: 18.865, 18.738; MAPE: 15.066, 12.006; Q10: 4.475, 4.336; Q50: 9.432, 9.369; Q90: 4.649, 4.629;
+----------val loss is :  5.403125 ----------test loss is :  5.323313
+In Stacking model  Epoch 7: 
+| 3  Horizon | RMSE: 24.239, 23.261; MAE: 15.319, 15.071; MAPE: 11.697, 9.805; Q10: 3.658, 3.544; Q50: 7.660, 7.535; Q90: 3.612, 3.561;
+| 6  Horizon | RMSE: 26.420, 25.554; MAE: 16.513, 16.345; MAPE: 12.649, 10.380; Q10: 3.962, 3.856; Q50: 8.257, 8.173; Q90: 3.963, 3.946;
+| 12 Horizon | RMSE: 30.024, 29.092; MAE: 18.870, 18.748; MAPE: 15.063, 11.999; Q10: 4.497, 4.369; Q50: 9.435, 9.374; Q90: 4.737, 4.731;
+----------val loss is :  5.426709 ----------test loss is :  5.356506
+In Stacking model  Epoch 8: 
+| 3  Horizon | RMSE: 24.289, 23.262; MAE: 15.387, 15.029; MAPE: 11.429, 9.505; Q10: 3.659, 3.530; Q50: 7.694, 7.514; Q90: 3.566, 3.483;
+| 6  Horizon | RMSE: 26.416, 25.510; MAE: 16.554, 16.277; MAPE: 12.520, 10.197; Q10: 3.962, 3.843; Q50: 8.277, 8.138; Q90: 3.895, 3.848;
+| 12 Horizon | RMSE: 29.885, 28.922; MAE: 18.742, 18.509; MAPE: 14.761, 11.634; Q10: 4.489, 4.351; Q50: 9.371, 9.255; Q90: 4.598, 4.563;
+----------val loss is :  5.411638 ----------test loss is :  5.308494
+In Stacking model  Epoch 9: 
+| 3  Horizon | RMSE: 24.478, 23.509; MAE: 15.715, 15.509; MAPE: 12.739, 10.807; Q10: 3.697, 3.586; Q50: 7.857, 7.754; Q90: 3.664, 3.613;
+| 6  Horizon | RMSE: 26.603, 25.735; MAE: 16.826, 16.696; MAPE: 13.519, 11.219; Q10: 3.998, 3.895; Q50: 8.413, 8.348; Q90: 4.004, 3.985;
+| 12 Horizon | RMSE: 30.250, 29.314; MAE: 19.249, 19.179; MAPE: 16.005, 12.944; Q10: 4.534, 4.410; Q50: 9.624, 9.589; Q90: 4.783, 4.777;
+----------val loss is :  5.507652 ----------test loss is :  5.446146
+In Stacking model  Epoch 10: 
+| 3  Horizon | RMSE: 24.302, 23.273; MAE: 15.413, 15.047; MAPE: 11.423, 9.493; Q10: 3.649, 3.522; Q50: 7.706, 7.524; Q90: 3.568, 3.498;
+| 6  Horizon | RMSE: 26.433, 25.531; MAE: 16.588, 16.307; MAPE: 12.529, 10.206; Q10: 3.952, 3.835; Q50: 8.294, 8.154; Q90: 3.908, 3.873;
+| 12 Horizon | RMSE: 29.897, 28.935; MAE: 18.759, 18.520; MAPE: 14.740, 11.610; Q10: 4.482, 4.342; Q50: 9.379, 9.260; Q90: 4.640, 4.617;
+----------val loss is :  5.418662 ----------test loss is :  5.319038
+In Stacking model  Epoch 11: 
+| 3  Horizon | RMSE: 24.266, 23.303; MAE: 15.357, 15.123; MAPE: 11.739, 9.864; Q10: 3.660, 3.553; Q50: 7.678, 7.561; Q90: 3.578, 3.506;
+| 6  Horizon | RMSE: 26.472, 25.614; MAE: 16.565, 16.407; MAPE: 12.667, 10.416; Q10: 3.966, 3.864; Q50: 8.283, 8.204; Q90: 3.925, 3.889;
+| 12 Horizon | RMSE: 30.095, 29.166; MAE: 18.943, 18.825; MAPE: 15.079, 12.040; Q10: 4.505, 4.377; Q50: 9.471, 9.413; Q90: 4.653, 4.628;
+----------val loss is :  5.422618 ----------test loss is :  5.3489
+In Stacking model  Epoch 12: 
+| 3  Horizon | RMSE: 24.233, 23.231; MAE: 15.326, 14.997; MAPE: 11.352, 9.457; Q10: 3.655, 3.527; Q50: 7.663, 7.499; Q90: 3.578, 3.504;
+| 6  Horizon | RMSE: 26.413, 25.540; MAE: 16.551, 16.305; MAPE: 12.449, 10.157; Q10: 3.958, 3.841; Q50: 8.276, 8.153; Q90: 3.920, 3.886;
+| 12 Horizon | RMSE: 29.939, 28.999; MAE: 18.783, 18.578; MAPE: 14.682, 11.605; Q10: 4.486, 4.348; Q50: 9.391, 9.289; Q90: 4.647, 4.625;
+----------val loss is :  5.416122 ----------test loss is :  5.322001
+In Stacking model  Epoch 13: 
+| 3  Horizon | RMSE: 24.238, 23.235; MAE: 15.318, 15.044; MAPE: 11.741, 9.858; Q10: 3.662, 3.549; Q50: 7.659, 7.522; Q90: 3.564, 3.491;
+| 6  Horizon | RMSE: 26.377, 25.487; MAE: 16.462, 16.273; MAPE: 12.664, 10.397; Q10: 3.967, 3.861; Q50: 8.231, 8.136; Q90: 3.897, 3.858;
+| 12 Horizon | RMSE: 29.949, 28.998; MAE: 18.801, 18.664; MAPE: 15.084, 12.024; Q10: 4.504, 4.373; Q50: 9.400, 9.332; Q90: 4.623, 4.598;
+----------val loss is :  5.40001 ----------test loss is :  5.319507
+In Stacking model  Epoch 14: 
+| 3  Horizon | RMSE: 24.218, 23.213; MAE: 15.281, 14.984; MAPE: 11.478, 9.594; Q10: 3.650, 3.523; Q50: 7.640, 7.492; Q90: 3.587, 3.523;
+| 6  Horizon | RMSE: 26.394, 25.505; MAE: 16.477, 16.262; MAPE: 12.484, 10.209; Q10: 3.955, 3.837; Q50: 8.239, 8.131; Q90: 3.937, 3.911;
+| 12 Horizon | RMSE: 29.958, 29.000; MAE: 18.780, 18.607; MAPE: 14.828, 11.760; Q10: 4.485, 4.345; Q50: 9.390, 9.304; Q90: 4.691, 4.674;
+----------val loss is :  5.410859 ----------test loss is :  5.324372
+In Stacking model  Epoch 15: 
+| 3  Horizon | RMSE: 24.278, 23.256; MAE: 15.389, 15.032; MAPE: 11.396, 9.473; Q10: 3.684, 3.551; Q50: 7.695, 7.516; Q90: 3.562, 3.481;
+| 6  Horizon | RMSE: 26.439, 25.538; MAE: 16.593, 16.318; MAPE: 12.512, 10.197; Q10: 3.984, 3.864; Q50: 8.296, 8.159; Q90: 3.885, 3.839;
+| 12 Horizon | RMSE: 29.911, 28.953; MAE: 18.770, 18.538; MAPE: 14.712, 11.593; Q10: 4.497, 4.354; Q50: 9.385, 9.269; Q90: 4.592, 4.562;
+----------val loss is :  5.420136 ----------test loss is :  5.3175
+In Stacking model  Epoch 16: 
+| 3  Horizon | RMSE: 24.245, 23.240; MAE: 15.329, 15.057; MAPE: 11.787, 9.897; Q10: 3.657, 3.526; Q50: 7.664, 7.528; Q90: 3.578, 3.512;
+| 6  Horizon | RMSE: 26.377, 25.491; MAE: 16.467, 16.283; MAPE: 12.691, 10.423; Q10: 3.959, 3.841; Q50: 8.234, 8.142; Q90: 3.910, 3.879;
+| 12 Horizon | RMSE: 29.962, 29.006; MAE: 18.814, 18.682; MAPE: 15.120, 12.059; Q10: 4.489, 4.348; Q50: 9.407, 9.341; Q90: 4.656, 4.638;
+----------val loss is :  5.404554 ----------test loss is :  5.322311
+In Stacking model  Epoch 17: 
+| 3  Horizon | RMSE: 24.219, 23.230; MAE: 15.290, 15.023; MAPE: 11.597, 9.717; Q10: 3.645, 3.521; Q50: 7.645, 7.511; Q90: 3.573, 3.495;
+| 6  Horizon | RMSE: 26.403, 25.525; MAE: 16.482, 16.297; MAPE: 12.553, 10.292; Q10: 3.950, 3.835; Q50: 8.241, 8.149; Q90: 3.910, 3.869;
+| 12 Horizon | RMSE: 29.981, 29.043; MAE: 18.814, 18.679; MAPE: 14.939, 11.887; Q10: 4.482, 4.343; Q50: 9.407, 9.339; Q90: 4.624, 4.597;
+----------val loss is :  5.399834 ----------test loss is :  5.315497
+In Stacking model  Epoch 18: 
+| 3  Horizon | RMSE: 24.209, 23.214; MAE: 15.273, 14.991; MAPE: 11.499, 9.623; Q10: 3.652, 3.523; Q50: 7.637, 7.495; Q90: 3.582, 3.521;
+| 6  Horizon | RMSE: 26.390, 25.509; MAE: 16.472, 16.269; MAPE: 12.492, 10.226; Q10: 3.955, 3.837; Q50: 8.236, 8.135; Q90: 3.921, 3.894;
+| 12 Horizon | RMSE: 29.960, 29.010; MAE: 18.781, 18.625; MAPE: 14.849, 11.789; Q10: 4.482, 4.342; Q50: 9.390, 9.313; Q90: 4.676, 4.662;
+----------val loss is :  5.404673 ----------test loss is :  5.320639
+In Stacking model  Epoch 19: 
+| 3  Horizon | RMSE: 24.214, 23.239; MAE: 15.297, 15.042; MAPE: 11.637, 9.762; Q10: 3.646, 3.525; Q50: 7.649, 7.521; Q90: 3.575, 3.501;
+| 6  Horizon | RMSE: 26.399, 25.535; MAE: 16.491, 16.316; MAPE: 12.577, 10.325; Q10: 3.953, 3.839; Q50: 8.246, 8.158; Q90: 3.914, 3.877;
+| 12 Horizon | RMSE: 29.993, 29.061; MAE: 18.834, 18.708; MAPE: 14.973, 11.934; Q10: 4.484, 4.348; Q50: 9.417, 9.354; Q90: 4.634, 4.610;
+----------val loss is :  5.40361 ----------test loss is :  5.322684
+In Stacking model  Epoch 20: 
+| 3  Horizon | RMSE: 24.228, 23.243; MAE: 15.316, 15.055; MAPE: 11.718, 9.835; Q10: 3.656, 3.536; Q50: 7.658, 7.528; Q90: 3.565, 3.492;
+| 6  Horizon | RMSE: 26.398, 25.523; MAE: 16.488, 16.311; MAPE: 12.635, 10.377; Q10: 3.960, 3.850; Q50: 8.244, 8.155; Q90: 3.896, 3.858;
+| 12 Horizon | RMSE: 30.001, 29.049; MAE: 18.845, 18.711; MAPE: 15.046, 12.000; Q10: 4.496, 4.360; Q50: 9.422, 9.356; Q90: 4.626, 4.601;
+----------val loss is :  5.401526 ----------test loss is :  5.320732
+In Stacking model  Epoch 21: 
+| 3  Horizon | RMSE: 24.205, 23.208; MAE: 15.272, 14.978; MAPE: 11.445, 9.569; Q10: 3.663, 3.553; Q50: 7.636, 7.489; Q90: 3.575, 3.511;
+| 6  Horizon | RMSE: 26.387, 25.503; MAE: 16.478, 16.260; MAPE: 12.465, 10.191; Q10: 3.969, 3.867; Q50: 8.239, 8.130; Q90: 3.916, 3.886;
+| 12 Horizon | RMSE: 29.945, 28.991; MAE: 18.770, 18.596; MAPE: 14.789, 11.731; Q10: 4.509, 4.377; Q50: 9.385, 9.298; Q90: 4.666, 4.647;
+----------val loss is :  5.408031 ----------test loss is :  5.325444
+In Stacking model  Epoch 22: 
+| 3  Horizon | RMSE: 24.238, 23.248; MAE: 15.313, 15.051; MAPE: 11.620, 9.748; Q10: 3.649, 3.529; Q50: 7.656, 7.526; Q90: 3.600, 3.545;
+| 6  Horizon | RMSE: 26.431, 25.554; MAE: 16.514, 16.336; MAPE: 12.564, 10.317; Q10: 3.954, 3.844; Q50: 8.257, 8.168; Q90: 3.949, 3.929;
+| 12 Horizon | RMSE: 30.029, 29.082; MAE: 18.864, 18.728; MAPE: 14.962, 11.921; Q10: 4.491, 4.354; Q50: 9.432, 9.364; Q90: 4.720, 4.711;
+----------val loss is :  5.420383 ----------test loss is :  5.345009
+In Stacking model  Epoch 23: 
+| 3  Horizon | RMSE: 24.221, 23.231; MAE: 15.292, 15.026; MAPE: 11.608, 9.735; Q10: 3.649, 3.531; Q50: 7.646, 7.513; Q90: 3.570, 3.498;
+| 6  Horizon | RMSE: 26.399, 25.524; MAE: 16.479, 16.297; MAPE: 12.557, 10.302; Q10: 3.955, 3.846; Q50: 8.239, 8.148; Q90: 3.907, 3.872;
+| 12 Horizon | RMSE: 29.979, 29.044; MAE: 18.817, 18.682; MAPE: 14.942, 11.900; Q10: 4.491, 4.355; Q50: 9.408, 9.341; Q90: 4.635, 4.613;
+----------val loss is :  5.400696 ----------test loss is :  5.320258
+In Stacking model  Epoch 24: 
+| 3  Horizon | RMSE: 24.233, 23.232; MAE: 15.307, 15.034; MAPE: 11.675, 9.796; Q10: 3.651, 3.527; Q50: 7.653, 7.517; Q90: 3.566, 3.493;
+| 6  Horizon | RMSE: 26.400, 25.508; MAE: 16.478, 16.287; MAPE: 12.603, 10.344; Q10: 3.956, 3.842; Q50: 8.239, 8.143; Q90: 3.898, 3.859;
+| 12 Horizon | RMSE: 29.982, 29.026; MAE: 18.818, 18.678; MAPE: 15.005, 11.956; Q10: 4.491, 4.351; Q50: 9.409, 9.339; Q90: 4.628, 4.602;
+----------val loss is :  5.398328 ----------test loss is :  5.314665
+In Stacking model  Epoch 25: 
+| 3  Horizon | RMSE: 24.222, 23.209; MAE: 15.285, 14.988; MAPE: 11.564, 9.680; Q10: 3.664, 3.535; Q50: 7.642, 7.494; Q90: 3.567, 3.497;
+| 6  Horizon | RMSE: 26.366, 25.471; MAE: 16.445, 16.234; MAPE: 12.531, 10.259; Q10: 3.966, 3.849; Q50: 8.222, 8.117; Q90: 3.896, 3.860;
+| 12 Horizon | RMSE: 29.907, 28.957; MAE: 18.743, 18.587; MAPE: 14.902, 11.838; Q10: 4.493, 4.356; Q50: 9.371, 9.293; Q90: 4.629, 4.608;
+----------val loss is :  5.397018 ----------test loss is :  5.309186
+In Stacking model  Epoch 26: 
+| 3  Horizon | RMSE: 24.296, 23.325; MAE: 15.433, 15.204; MAPE: 12.056, 10.171; Q10: 3.648, 3.526; Q50: 7.716, 7.602; Q90: 3.567, 3.484;
+| 6  Horizon | RMSE: 26.457, 25.593; MAE: 16.587, 16.437; MAPE: 12.900, 10.644; Q10: 3.953, 3.841; Q50: 8.293, 8.218; Q90: 3.894, 3.846;
+| 12 Horizon | RMSE: 30.081, 29.147; MAE: 18.980, 18.881; MAPE: 15.357, 12.320; Q10: 4.488, 4.350; Q50: 9.490, 9.440; Q90: 4.595, 4.563;
+----------val loss is :  5.414412 ----------test loss is :  5.335337
+In Stacking model  Epoch 27: 
+| 3  Horizon | RMSE: 24.209, 23.219; MAE: 15.281, 15.004; MAPE: 11.555, 9.675; Q10: 3.647, 3.518; Q50: 7.641, 7.502; Q90: 3.571, 3.504;
+| 6  Horizon | RMSE: 26.386, 25.513; MAE: 16.470, 16.280; MAPE: 12.521, 10.258; Q10: 3.949, 3.833; Q50: 8.235, 8.140; Q90: 3.909, 3.877;
+| 12 Horizon | RMSE: 29.967, 29.023; MAE: 18.798, 18.650; MAPE: 14.892, 11.840; Q10: 4.480, 4.336; Q50: 9.399, 9.325; Q90: 4.651, 4.632;
+----------val loss is :  5.399332 ----------test loss is :  5.315237
+In Stacking model  Epoch 28: 
+| 3  Horizon | RMSE: 24.226, 23.214; MAE: 15.292, 14.999; MAPE: 11.596, 9.716; Q10: 3.655, 3.531; Q50: 7.646, 7.499; Q90: 3.568, 3.493;
+| 6  Horizon | RMSE: 26.374, 25.479; MAE: 16.451, 16.243; MAPE: 12.549, 10.281; Q10: 3.959, 3.845; Q50: 8.225, 8.122; Q90: 3.900, 3.863;
+| 12 Horizon | RMSE: 29.933, 28.976; MAE: 18.766, 18.609; MAPE: 14.930, 11.872; Q10: 4.492, 4.353; Q50: 9.383, 9.305; Q90: 4.628, 4.603;
+----------val loss is :  5.397571 ----------test loss is :  5.310075
+In Stacking model  Epoch 29: 
+| 3  Horizon | RMSE: 24.220, 23.204; MAE: 15.281, 14.973; MAPE: 11.493, 9.599; Q10: 3.655, 3.525; Q50: 7.641, 7.486; Q90: 3.577, 3.500;
+| 6  Horizon | RMSE: 26.368, 25.471; MAE: 16.452, 16.228; MAPE: 12.493, 10.207; Q10: 3.958, 3.840; Q50: 8.226, 8.114; Q90: 3.914, 3.876;
+| 12 Horizon | RMSE: 29.898, 28.943; MAE: 18.729, 18.557; MAPE: 14.832, 11.756; Q10: 4.487, 4.346; Q50: 9.364, 9.278; Q90: 4.634, 4.609;
+----------val loss is :  5.400897 ----------test loss is :  5.309051
+In Stacking model  Epoch 30: 
+| 3  Horizon | RMSE: 24.207, 23.217; MAE: 15.283, 15.005; MAPE: 11.562, 9.708; Q10: 3.649, 3.530; Q50: 7.642, 7.502; Q90: 3.565, 3.483;
+| 6  Horizon | RMSE: 26.381, 25.499; MAE: 16.461, 16.265; MAPE: 12.523, 10.278; Q10: 3.956, 3.845; Q50: 8.230, 8.133; Q90: 3.890, 3.843;
+| 12 Horizon | RMSE: 29.950, 29.006; MAE: 18.783, 18.639; MAPE: 14.900, 11.868; Q10: 4.489, 4.353; Q50: 9.392, 9.319; Q90: 4.596, 4.564;
+----------val loss is :  5.392215 ----------test loss is :  5.305762
+In Stacking model  Epoch 31: 
+| 3  Horizon | RMSE: 24.239, 23.263; MAE: 15.329, 15.084; MAPE: 11.728, 9.860; Q10: 3.656, 3.543; Q50: 7.664, 7.542; Q90: 3.572, 3.507;
+| 6  Horizon | RMSE: 26.428, 25.558; MAE: 16.517, 16.352; MAPE: 12.618, 10.395; Q10: 3.963, 3.858; Q50: 8.258, 8.176; Q90: 3.906, 3.875;
+| 12 Horizon | RMSE: 30.033, 29.095; MAE: 18.877, 18.763; MAPE: 15.045, 12.024; Q10: 4.501, 4.368; Q50: 9.439, 9.381; Q90: 4.649, 4.632;
+----------val loss is :  5.408695 ----------test loss is :  5.335071
+In Stacking model  Epoch 32: 
+| 3  Horizon | RMSE: 24.222, 23.236; MAE: 15.292, 15.022; MAPE: 11.528, 9.664; Q10: 3.651, 3.520; Q50: 7.646, 7.511; Q90: 3.574, 3.504;
+| 6  Horizon | RMSE: 26.429, 25.551; MAE: 16.505, 16.316; MAPE: 12.501, 10.252; Q10: 3.954, 3.834; Q50: 8.253, 8.158; Q90: 3.916, 3.881;
+| 12 Horizon | RMSE: 30.019, 29.073; MAE: 18.840, 18.693; MAPE: 14.867, 11.831; Q10: 4.483, 4.339; Q50: 9.420, 9.347; Q90: 4.650, 4.628;
+----------val loss is :  5.406907 ----------test loss is :  5.321633
+In Stacking model  Epoch 33: 
+| 3  Horizon | RMSE: 24.235, 23.233; MAE: 15.315, 15.042; MAPE: 11.710, 9.832; Q10: 3.656, 3.539; Q50: 7.657, 7.521; Q90: 3.569, 3.498;
+| 6  Horizon | RMSE: 26.393, 25.504; MAE: 16.477, 16.286; MAPE: 12.627, 10.367; Q10: 3.963, 3.854; Q50: 8.238, 8.143; Q90: 3.903, 3.867;
+| 12 Horizon | RMSE: 29.970, 29.021; MAE: 18.819, 18.682; MAPE: 15.029, 11.989; Q10: 4.498, 4.363; Q50: 9.410, 9.341; Q90: 4.639, 4.617;
+----------val loss is :  5.402742 ----------test loss is :  5.321379
+In Stacking model  Epoch 34: 
+| 3  Horizon | RMSE: 24.213, 23.224; MAE: 15.280, 15.006; MAPE: 11.501, 9.628; Q10: 3.644, 3.522; Q50: 7.640, 7.503; Q90: 3.576, 3.503;
+| 6  Horizon | RMSE: 26.412, 25.536; MAE: 16.493, 16.301; MAPE: 12.487, 10.229; Q10: 3.951, 3.838; Q50: 8.246, 8.151; Q90: 3.915, 3.879;
+| 12 Horizon | RMSE: 29.999, 29.049; MAE: 18.817, 18.666; MAPE: 14.845, 11.797; Q10: 4.487, 4.346; Q50: 9.408, 9.333; Q90: 4.644, 4.619;
+----------val loss is :  5.403482 ----------test loss is :  5.319293
+In Stacking model  Epoch 35: 
+| 3  Horizon | RMSE: 24.211, 23.205; MAE: 15.275, 14.975; MAPE: 11.437, 9.557; Q10: 3.640, 3.513; Q50: 7.638, 7.487; Q90: 3.569, 3.498;
+| 6  Horizon | RMSE: 26.395, 25.503; MAE: 16.482, 16.261; MAPE: 12.455, 10.183; Q10: 3.947, 3.829; Q50: 8.241, 8.131; Q90: 3.903, 3.868;
+| 12 Horizon | RMSE: 29.944, 28.989; MAE: 18.764, 18.593; MAPE: 14.768, 11.718; Q10: 4.477, 4.333; Q50: 9.382, 9.297; Q90: 4.640, 4.617;
+----------val loss is :  5.396941 ----------test loss is :  5.30722
+In Stacking model  Epoch 36: 
+| 3  Horizon | RMSE: 24.204, 23.204; MAE: 15.270, 14.977; MAPE: 11.474, 9.595; Q10: 3.646, 3.519; Q50: 7.635, 7.489; Q90: 3.584, 3.525;
+| 6  Horizon | RMSE: 26.385, 25.494; MAE: 16.468, 16.255; MAPE: 12.482, 10.205; Q10: 3.952, 3.835; Q50: 8.234, 8.127; Q90: 3.925, 3.899;
+| 12 Horizon | RMSE: 29.935, 28.983; MAE: 18.758, 18.597; MAPE: 14.818, 11.758; Q10: 4.482, 4.341; Q50: 9.379, 9.299; Q90: 4.683, 4.671;
+----------val loss is :  5.403787 ----------test loss is :  5.319316
+In Stacking model  Epoch 37: 
+| 3  Horizon | RMSE: 24.210, 23.224; MAE: 15.276, 15.004; MAPE: 11.484, 9.616; Q10: 3.640, 3.519; Q50: 7.638, 7.502; Q90: 3.574, 3.507;
+| 6  Horizon | RMSE: 26.413, 25.538; MAE: 16.494, 16.301; MAPE: 12.474, 10.220; Q10: 3.948, 3.835; Q50: 8.247, 8.151; Q90: 3.915, 3.884;
+| 12 Horizon | RMSE: 29.990, 29.050; MAE: 18.813, 18.664; MAPE: 14.827, 11.784; Q10: 4.484, 4.344; Q50: 9.406, 9.332; Q90: 4.657, 4.638;
+----------val loss is :  5.402472 ----------test loss is :  5.320333
+In Stacking model  Epoch 38: 
+| 3  Horizon | RMSE: 24.275, 23.293; MAE: 15.379, 15.137; MAPE: 11.862, 9.987; Q10: 3.661, 3.540; Q50: 7.689, 7.569; Q90: 3.584, 3.523;
+| 6  Horizon | RMSE: 26.455, 25.583; MAE: 16.553, 16.393; MAPE: 12.743, 10.492; Q10: 3.966, 3.855; Q50: 8.277, 8.197; Q90: 3.925, 3.899;
+| 12 Horizon | RMSE: 30.064, 29.133; MAE: 18.930, 18.822; MAPE: 15.173, 12.140; Q10: 4.498, 4.363; Q50: 9.465, 9.411; Q90: 4.681, 4.670;
+----------val loss is :  5.422692 ----------test loss is :  5.349677
+In Stacking model  Epoch 39: 
+| 3  Horizon | RMSE: 24.213, 23.207; MAE: 15.285, 14.972; MAPE: 11.391, 9.502; Q10: 3.646, 3.517; Q50: 7.642, 7.486; Q90: 3.577, 3.514;
+| 6  Horizon | RMSE: 26.396, 25.508; MAE: 16.498, 16.265; MAPE: 12.429, 10.158; Q10: 3.951, 3.832; Q50: 8.249, 8.133; Q90: 3.918, 3.891;
+| 12 Horizon | RMSE: 29.925, 28.977; MAE: 18.751, 18.569; MAPE: 14.725, 11.655; Q10: 4.479, 4.337; Q50: 9.376, 9.285; Q90: 4.667, 4.652;
+----------val loss is :  5.405081 ----------test loss is :  5.316155
+In Stacking model  Epoch 40: 
+| 3  Horizon | RMSE: 24.212, 23.211; MAE: 15.278, 14.996; MAPE: 11.559, 9.683; Q10: 3.665, 3.548; Q50: 7.639, 7.498; Q90: 3.575, 3.511;
+| 6  Horizon | RMSE: 26.379, 25.493; MAE: 16.456, 16.259; MAPE: 12.523, 10.261; Q10: 3.970, 3.863; Q50: 8.228, 8.130; Q90: 3.915, 3.887;
+| 12 Horizon | RMSE: 29.944, 28.995; MAE: 18.772, 18.626; MAPE: 14.883, 11.845; Q10: 4.504, 4.371; Q50: 9.386, 9.313; Q90: 4.662, 4.646;
+----------val loss is :  5.405171 ----------test loss is :  5.325315
+***************************
+***************************
+Stack Model Early stopping at epoch: 40
+***************************
+***************************
+Model  stgcn3  Best Results:
+Epoch {'spatial CL model': 16, 'quantile CL model': 16, 'temporal CL model': 11}: 
+=        =        Horizon  3        =        =        =        =        Horizon  6        =        =        =        =        Horizon  12       =        =       
+RMSE     MAE      MAPE     Q10      Q50      Q90      RMSE     MAE      MAPE     Q10      Q50      Q90      RMSE     MAE      MAPE     Q10      Q50      Q90     
+23.217   15.005   9.708    3.530    7.502    3.483    25.499   16.265   10.278   3.845    8.133    3.843    29.006   18.639   11.868   4.353    9.319    4.564   
+Model Training Ended ... Wed Apr 10 22:49:00 2024

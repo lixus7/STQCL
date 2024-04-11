@@ -1,0 +1,32 @@
+nohup: ignoring input
+pdate shape is:  (16992,)
+single version  3  testing started Wed Feb  7 00:39:10 2024
+Model Testing Started ... Wed Feb  7 00:39:10 2024
+INPUT_STEP, PRED_STEP 12 12
+pdate shape is:  (16992,)
+data load........
+initial data shape is:  (16992, 307, 3)
+train_mean shape : (307,)
+****************************************
+****************************************
+Under Train Strategy ---  0.6  ---:
+--- version  3  evaluation start ---
+file exists:  ./save/pems04_stgcn3_in12_out12_addtimeFalse_adjTrue_lr0.001_hc32_train0.6_val0.2_test0.2_seedNone_lossquantile_version3_note:no_schedular/stgcn3.pt
+********************
+Version: 3 Start Testing :
+| 3  Horizon | RMSE: 30.635, 30.547; MAE: 19.144, 19.127; MAPE: 11.334, 11.374; Q10: 4.570, 4.583; Q50: 9.696, 9.675; Q90: 4.361, 4.396;
+| 6  Horizon | RMSE: 32.107, 32.400; MAE: 19.934, 20.148; MAPE: 11.698, 11.872; Q10: 4.783, 4.850; Q50: 10.102, 10.197; Q90: 4.555, 4.672;
+| 12 Horizon | RMSE: 34.414, 35.519; MAE: 21.576, 22.286; MAPE: 12.628, 13.076; Q10: 5.210, 5.386; Q50: 10.936, 11.277; Q90: 4.963, 5.243;
+--- version  3  evaluation end ---
+
+****************************************
+****************************************
+****************************************
+Results in Test Dataset in Each Horizon with All Version Average:
+stgcn3  :
+=        =        Horizon  3        =        =        =        =        Horizon  6        =        =        =        =        Horizon  12       =        =       
+RMSE     MAE      MAPE     Q10      Q50      Q90      RMSE     MAE      MAPE     Q10      Q50      Q90      RMSE     MAE      MAPE     Q10      Q50      Q90     
+30.547   19.127   11.374   4.583    9.675    4.396    32.400   20.148   11.872   4.850    10.197   4.672    35.519   22.286   13.076   5.386    11.277   5.243   
+Model Multi Version Testing Ended ... Wed Feb  7 00:39:25 2024
+****************************************
+****************************************

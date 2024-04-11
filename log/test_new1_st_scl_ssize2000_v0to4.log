@@ -1,0 +1,67 @@
+nohup: ignoring input
+pdate shape is:  (16992,)
+Model Testing Started ... Thu Dec  7 02:46:51 2023
+INPUT_STEP, PRED_STEP 12 12
+pdate shape is:  (16992,)
+data load........
+initial data shape is:  (16992, 307, 3)
+train_mean shape : (307,)
+****************************************
+****************************************
+Under Train Strategy ---  0.7  ---:
+--- version  0  evaluation start ---
+file exists:  ./save/pems04_stgcn7_in12_out12_addtimeFalse_adjTrue_lr0.001_hc32_train0.7_val0.1_test0.2_seedNone_lossquantile_version0_note:new1_st_scl_s2000_ymask_scheNo/stgcn7.pt
+********************
+Version: 0 Start Testing :
+| 3  Horizon | RMSE: 29.978, 29.853; MAE: 18.924, 18.792; MAPE: 10.994, 11.096; Q10: 4.497, 4.427; Q50: 9.588, 9.514; Q90: 4.267, 4.335;
+| 6  Horizon | RMSE: 31.080, 31.368; MAE: 19.594, 19.693; MAPE: 11.324, 11.554; Q10: 4.687, 4.665; Q50: 9.930, 9.970; Q90: 4.418, 4.579;
+| 12 Horizon | RMSE: 33.102, 33.940; MAE: 21.100, 21.579; MAPE: 12.142, 12.576; Q10: 5.055, 5.110; Q50: 10.706, 10.931; Q90: 4.745, 5.055;
+--- version  0  evaluation end ---
+
+--- version  1  evaluation start ---
+file exists:  ./save/pems04_stgcn7_in12_out12_addtimeFalse_adjTrue_lr0.001_hc32_train0.7_val0.1_test0.2_seedNone_lossquantile_version1_note:new1_st_scl_s2000_ymask_scheNo/stgcn7.pt
+********************
+Version: 1 Start Testing :
+| 3  Horizon | RMSE: 30.705, 30.972; MAE: 18.985, 19.157; MAPE: 11.095, 11.456; Q10: 4.563, 4.574; Q50: 9.618, 9.688; Q90: 4.262, 4.358;
+| 6  Horizon | RMSE: 31.929, 32.783; MAE: 19.639, 20.149; MAPE: 11.375, 11.922; Q10: 4.776, 4.902; Q50: 9.956, 10.192; Q90: 4.421, 4.617;
+| 12 Horizon | RMSE: 33.548, 35.261; MAE: 20.937, 21.998; MAPE: 12.239, 13.168; Q10: 5.084, 5.363; Q50: 10.610, 11.123; Q90: 4.745, 5.113;
+--- version  1  evaluation end ---
+
+--- version  2  evaluation start ---
+file exists:  ./save/pems04_stgcn7_in12_out12_addtimeFalse_adjTrue_lr0.001_hc32_train0.7_val0.1_test0.2_seedNone_lossquantile_version2_note:new1_st_scl_s2000_ymask_scheNo/stgcn7.pt
+********************
+Version: 2 Start Testing :
+| 3  Horizon | RMSE: 30.198, 30.146; MAE: 18.786, 18.789; MAPE: 10.836, 11.080; Q10: 4.505, 4.478; Q50: 9.531, 9.516; Q90: 4.234, 4.309;
+| 6  Horizon | RMSE: 31.451, 32.060; MAE: 19.501, 19.883; MAPE: 11.245, 11.705; Q10: 4.707, 4.777; Q50: 9.881, 10.055; Q90: 4.372, 4.567;
+| 12 Horizon | RMSE: 33.498, 35.035; MAE: 20.879, 21.702; MAPE: 12.059, 12.685; Q10: 5.078, 5.275; Q50: 10.593, 10.987; Q90: 4.758, 5.146;
+--- version  2  evaluation end ---
+
+--- version  3  evaluation start ---
+file exists:  ./save/pems04_stgcn7_in12_out12_addtimeFalse_adjTrue_lr0.001_hc32_train0.7_val0.1_test0.2_seedNone_lossquantile_version3_note:new1_st_scl_s2000_ymask_scheNo/stgcn7.pt
+********************
+Version: 3 Start Testing :
+| 3  Horizon | RMSE: 30.345, 30.068; MAE: 19.193, 19.048; MAPE: 11.234, 11.334; Q10: 4.560, 4.494; Q50: 9.739, 9.649; Q90: 4.374, 4.426;
+| 6  Horizon | RMSE: 31.540, 31.640; MAE: 19.946, 20.033; MAPE: 11.543, 11.771; Q10: 4.760, 4.741; Q50: 10.115, 10.141; Q90: 4.528, 4.658;
+| 12 Horizon | RMSE: 33.688, 34.419; MAE: 21.628, 22.029; MAPE: 12.575, 12.956; Q10: 5.158, 5.217; Q50: 10.957, 11.138; Q90: 4.933, 5.149;
+--- version  3  evaluation end ---
+
+--- version  4  evaluation start ---
+file exists:  ./save/pems04_stgcn7_in12_out12_addtimeFalse_adjTrue_lr0.001_hc32_train0.7_val0.1_test0.2_seedNone_lossquantile_version4_note:new1_st_scl_s2000_ymask_scheNo/stgcn7.pt
+********************
+Version: 4 Start Testing :
+| 3  Horizon | RMSE: 30.426, 30.506; MAE: 19.190, 19.188; MAPE: 11.194, 11.261; Q10: 4.542, 4.521; Q50: 9.728, 9.718; Q90: 4.302, 4.380;
+| 6  Horizon | RMSE: 31.909, 32.337; MAE: 19.959, 20.181; MAPE: 11.671, 11.811; Q10: 4.778, 4.819; Q50: 10.116, 10.216; Q90: 4.469, 4.631;
+| 12 Horizon | RMSE: 34.171, 35.222; MAE: 21.510, 22.096; MAPE: 12.728, 12.989; Q10: 5.175, 5.320; Q50: 10.900, 11.180; Q90: 4.868, 5.168;
+--- version  4  evaluation end ---
+
+****************************************
+****************************************
+****************************************
+Results in Test Dataset in Each Horizon with All Version Average:
+stgcn7  :
+=        =        Horizon  3        =        =        =        =        Horizon  6        =        =        =        =        Horizon  12       =        =       
+RMSE     MAE      MAPE     Q10      Q50      Q90      RMSE     MAE      MAPE     Q10      Q50      Q90      RMSE     MAE      MAPE     Q10      Q50      Q90     
+30.309   18.995   11.245   4.499    9.617    4.362    32.038   19.988   11.753   4.781    10.115   4.610    34.776   21.881   12.875   5.257    11.072   5.126   
+Model Multi Version Testing Ended ... Thu Dec  7 02:47:20 2023
+****************************************
+****************************************

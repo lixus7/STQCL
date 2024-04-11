@@ -1,0 +1,189 @@
+nohup: ignoring input
+pdate shape is:  (16992,)
+./save/pems04_stnorm_point_in12_out12_addtimeFalse_adjTrue_lr0.001_hc32_train0.6_val0.2_test0.2_seedNone_lossmasked_mse_version1_note: training started Fri Feb  9 00:11:51 2024
+pdate shape is:  (16992,)
+data load........
+initial data shape is:  (16992, 307, 3)
+train_mean shape : (307,)
+train  :  (10177, 24, 307, 3)
+val  :  (3393, 24, 307, 3)
+test  :  (3388, 24, 307, 3)
+Model Training Started ... Fri Feb  9 00:11:52 2024
+TIMESTEP_IN, TIMESTEP_OUT 12 12
+LOSS is : masked_mse
+Epoch 0: 
+| 3  Horizon | RMSE: 32.006, 31.035; MAE: 20.573, 20.054; MAPE: 12.545, 12.374;
+| 6  Horizon | RMSE: 34.608, 33.630; MAE: 22.386, 21.947; MAPE: 13.526, 13.438;
+| 12 Horizon | RMSE: 39.103, 38.411; MAE: 25.923, 25.773; MAPE: 15.734, 15.842;
+epoch 0 time used: 27  seconds  train loss: 1503.137 val loss: 34.644799 test loss: 33.755726
+Epoch 1: 
+| 3  Horizon | RMSE: 32.555, 31.567; MAE: 21.095, 20.532; MAPE: 12.321, 12.149;
+| 6  Horizon | RMSE: 34.748, 33.831; MAE: 22.594, 22.139; MAPE: 12.912, 12.823;
+| 12 Horizon | RMSE: 37.439, 36.881; MAE: 24.683, 24.521; MAPE: 14.354, 14.392;
+epoch 1 time used: 24  seconds  train loss: 1096.925 val loss: 34.530196 test loss: 33.677836
+Epoch 2: 
+| 3  Horizon | RMSE: 31.329, 30.554; MAE: 20.244, 19.848; MAPE: 12.840, 12.689;
+| 6  Horizon | RMSE: 33.408, 32.802; MAE: 21.821, 21.593; MAPE: 14.071, 13.953;
+| 12 Horizon | RMSE: 36.644, 36.382; MAE: 24.179, 24.215; MAPE: 15.499, 15.460;
+epoch 2 time used: 24  seconds  train loss: 1041.196 val loss: 33.395673 test loss: 32.828193
+Epoch 3: 
+| 3  Horizon | RMSE: 31.064, 30.178; MAE: 19.667, 19.234; MAPE: 11.684, 11.572;
+| 6  Horizon | RMSE: 32.918, 32.131; MAE: 20.936, 20.655; MAPE: 12.337, 12.331;
+| 12 Horizon | RMSE: 35.588, 35.147; MAE: 23.007, 23.028; MAPE: 13.768, 13.923;
+epoch 3 time used: 24  seconds  train loss: 998.949 val loss: 32.764909 test loss: 32.06897
+Epoch 4: 
+| 3  Horizon | RMSE: 30.703, 29.949; MAE: 19.469, 19.129; MAPE: 11.589, 11.509;
+| 6  Horizon | RMSE: 32.372, 31.776; MAE: 20.579, 20.434; MAPE: 12.371, 12.428;
+| 12 Horizon | RMSE: 34.698, 34.644; MAE: 22.462, 22.754; MAPE: 14.001, 14.354;
+epoch 4 time used: 24  seconds  train loss: 974.613 val loss: 32.224437 test loss: 31.725986
+Epoch 5: 
+| 3  Horizon | RMSE: 30.846, 30.267; MAE: 19.945, 19.732; MAPE: 12.812, 12.847;
+| 6  Horizon | RMSE: 32.414, 32.014; MAE: 21.038, 21.043; MAPE: 13.890, 14.049;
+| 12 Horizon | RMSE: 34.704, 34.616; MAE: 22.835, 23.173; MAPE: 16.037, 16.456;
+epoch 5 time used: 25  seconds  train loss: 953.304 val loss: 32.315906 test loss: 31.950598
+Epoch 6: 
+| 3  Horizon | RMSE: 31.368, 30.723; MAE: 20.939, 20.645; MAPE: 16.157, 16.095;
+| 6  Horizon | RMSE: 32.794, 32.385; MAE: 21.458, 21.399; MAPE: 14.909, 15.047;
+| 12 Horizon | RMSE: 35.018, 35.031; MAE: 22.699, 23.013; MAPE: 14.392, 14.839;
+epoch 6 time used: 24  seconds  train loss: 941.791 val loss: 32.772303 test loss: 32.423854
+Epoch 7: 
+| 3  Horizon | RMSE: 30.739, 30.055; MAE: 19.835, 19.520; MAPE: 12.837, 12.846;
+| 6  Horizon | RMSE: 32.593, 32.031; MAE: 21.047, 20.865; MAPE: 13.149, 13.251;
+| 12 Horizon | RMSE: 34.808, 34.610; MAE: 22.608, 22.775; MAPE: 13.839, 14.212;
+epoch 7 time used: 25  seconds  train loss: 928.264 val loss: 32.456995 test loss: 31.961491
+Epoch 8: 
+| 3  Horizon | RMSE: 30.590, 30.109; MAE: 19.372, 19.208; MAPE: 11.389, 11.452;
+| 6  Horizon | RMSE: 32.456, 32.230; MAE: 20.857, 20.899; MAPE: 12.785, 12.996;
+| 12 Horizon | RMSE: 34.715, 34.904; MAE: 22.665, 23.090; MAPE: 14.468, 14.981;
+epoch 8 time used: 24  seconds  train loss: 918.768 val loss: 32.240351 test loss: 32.053338
+Epoch 9: 
+| 3  Horizon | RMSE: 30.759, 30.175; MAE: 19.236, 18.970; MAPE: 11.385, 11.420;
+| 6  Horizon | RMSE: 32.351, 32.039; MAE: 20.208, 20.109; MAPE: 11.955, 12.062;
+| 12 Horizon | RMSE: 34.455, 34.567; MAE: 21.899, 22.096; MAPE: 13.439, 13.610;
+epoch 9 time used: 24  seconds  train loss: 908.076 val loss: 32.155605 test loss: 31.885556
+Epoch 10: 
+| 3  Horizon | RMSE: 30.624, 30.101; MAE: 19.399, 19.210; MAPE: 11.326, 11.384;
+| 6  Horizon | RMSE: 32.249, 31.957; MAE: 20.438, 20.452; MAPE: 11.961, 12.123;
+| 12 Horizon | RMSE: 34.327, 34.529; MAE: 21.898, 22.282; MAPE: 12.823, 13.196;
+epoch 10 time used: 24  seconds  train loss: 900.893 val loss: 32.102063 test loss: 31.883003
+Epoch 11: 
+| 3  Horizon | RMSE: 30.430, 29.954; MAE: 19.193, 19.030; MAPE: 11.692, 11.715;
+| 6  Horizon | RMSE: 31.945, 31.748; MAE: 19.991, 20.044; MAPE: 12.032, 12.175;
+| 12 Horizon | RMSE: 34.096, 34.540; MAE: 21.938, 22.512; MAPE: 14.260, 14.753;
+epoch 11 time used: 24  seconds  train loss: 893.02 val loss: 31.813237 test loss: 31.727176
+Epoch 12: 
+| 3  Horizon | RMSE: 30.458, 29.849; MAE: 19.171, 18.942; MAPE: 11.492, 11.522;
+| 6  Horizon | RMSE: 31.907, 31.595; MAE: 20.160, 20.166; MAPE: 12.260, 12.390;
+| 12 Horizon | RMSE: 33.936, 34.181; MAE: 21.838, 22.279; MAPE: 13.742, 14.126;
+epoch 12 time used: 24  seconds  train loss: 887.531 val loss: 31.756334 test loss: 31.520345
+Epoch 13: 
+| 3  Horizon | RMSE: 30.404, 30.074; MAE: 19.051, 18.940; MAPE: 11.362, 11.488;
+| 6  Horizon | RMSE: 31.987, 32.036; MAE: 19.988, 20.106; MAPE: 12.023, 12.268;
+| 12 Horizon | RMSE: 33.937, 34.545; MAE: 21.462, 22.019; MAPE: 12.949, 13.452;
+epoch 13 time used: 24  seconds  train loss: 881.668 val loss: 31.768651 test loss: 31.854145
+Epoch 14: 
+| 3  Horizon | RMSE: 30.438, 30.097; MAE: 19.203, 19.060; MAPE: 11.783, 11.807;
+| 6  Horizon | RMSE: 32.010, 32.059; MAE: 20.054, 20.179; MAPE: 11.953, 12.127;
+| 12 Horizon | RMSE: 33.631, 34.181; MAE: 21.123, 21.666; MAPE: 12.811, 13.250;
+epoch 14 time used: 24  seconds  train loss: 877.402 val loss: 31.712869 test loss: 31.76797
+Epoch 15: 
+| 3  Horizon | RMSE: 30.261, 29.735; MAE: 18.996, 18.818; MAPE: 11.495, 11.496;
+| 6  Horizon | RMSE: 31.777, 31.585; MAE: 20.001, 20.063; MAPE: 12.484, 12.541;
+| 12 Horizon | RMSE: 34.025, 34.520; MAE: 21.688, 22.218; MAPE: 13.127, 13.372;
+epoch 15 time used: 24  seconds  train loss: 870.02 val loss: 31.656096 test loss: 31.556473
+Epoch 16: 
+| 3  Horizon | RMSE: 30.279, 29.646; MAE: 18.916, 18.665; MAPE: 11.212, 11.252;
+| 6  Horizon | RMSE: 31.827, 31.438; MAE: 19.953, 19.909; MAPE: 12.197, 12.367;
+| 12 Horizon | RMSE: 33.891, 33.948; MAE: 21.420, 21.765; MAPE: 13.283, 13.735;
+epoch 16 time used: 24  seconds  train loss: 866.52 val loss: 31.677588 test loss: 31.363881
+Epoch 17: 
+| 3  Horizon | RMSE: 30.346, 29.702; MAE: 18.967, 18.733; MAPE: 11.380, 11.417;
+| 6  Horizon | RMSE: 31.912, 31.482; MAE: 19.938, 19.918; MAPE: 12.194, 12.348;
+| 12 Horizon | RMSE: 34.075, 33.894; MAE: 21.298, 21.553; MAPE: 12.922, 13.218;
+epoch 17 time used: 24  seconds  train loss: 860.788 val loss: 31.7838 test loss: 31.372826
+Epoch 18: 
+| 3  Horizon | RMSE: 30.946, 30.595; MAE: 19.417, 19.244; MAPE: 12.362, 12.398;
+| 6  Horizon | RMSE: 32.047, 32.076; MAE: 20.084, 20.201; MAPE: 12.864, 12.995;
+| 12 Horizon | RMSE: 33.890, 34.303; MAE: 21.115, 21.570; MAPE: 12.778, 13.187;
+epoch 18 time used: 24  seconds  train loss: 857.923 val loss: 31.90726 test loss: 31.918857
+Epoch 19: 
+| 3  Horizon | RMSE: 30.647, 30.048; MAE: 19.110, 18.852; MAPE: 11.290, 11.309;
+| 6  Horizon | RMSE: 32.188, 31.840; MAE: 19.991, 19.935; MAPE: 11.893, 12.010;
+| 12 Horizon | RMSE: 33.554, 33.867; MAE: 21.020, 21.503; MAPE: 12.600, 12.993;
+epoch 19 time used: 24  seconds  train loss: 856.184 val loss: 31.875236 test loss: 31.631279
+Epoch 20: 
+| 3  Horizon | RMSE: 30.367, 29.915; MAE: 18.878, 18.733; MAPE: 11.126, 11.215;
+| 6  Horizon | RMSE: 31.867, 31.718; MAE: 19.808, 19.894; MAPE: 11.808, 12.021;
+| 12 Horizon | RMSE: 33.534, 33.976; MAE: 21.104, 21.664; MAPE: 12.846, 13.352;
+epoch 20 time used: 24  seconds  train loss: 853.152 val loss: 31.654033 test loss: 31.570328
+Epoch 21: 
+| 3  Horizon | RMSE: 30.536, 30.151; MAE: 19.288, 19.180; MAPE: 12.049, 12.063;
+| 6  Horizon | RMSE: 32.134, 31.972; MAE: 20.312, 20.399; MAPE: 13.142, 13.213;
+| 12 Horizon | RMSE: 33.698, 33.845; MAE: 21.248, 21.629; MAPE: 13.539, 13.677;
+epoch 21 time used: 24  seconds  train loss: 847.891 val loss: 31.801971 test loss: 31.642322
+Epoch 22: 
+| 3  Horizon | RMSE: 30.312, 29.941; MAE: 19.086, 18.990; MAPE: 11.579, 11.613;
+| 6  Horizon | RMSE: 31.849, 31.844; MAE: 19.943, 20.105; MAPE: 11.849, 12.026;
+| 12 Horizon | RMSE: 33.805, 34.295; MAE: 21.358, 21.894; MAPE: 12.742, 13.188;
+epoch 22 time used: 24  seconds  train loss: 845.896 val loss: 31.686327 test loss: 31.718524
+Epoch 23: 
+| 3  Horizon | RMSE: 30.230, 30.029; MAE: 18.770, 18.703; MAPE: 11.119, 11.255;
+| 6  Horizon | RMSE: 31.681, 31.827; MAE: 19.607, 19.789; MAPE: 11.705, 11.960;
+| 12 Horizon | RMSE: 33.377, 34.094; MAE: 20.852, 21.527; MAPE: 12.437, 12.992;
+epoch 23 time used: 24  seconds  train loss: 842.379 val loss: 31.45335 test loss: 31.631318
+Epoch 24: 
+| 3  Horizon | RMSE: 30.573, 30.265; MAE: 19.126, 19.011; MAPE: 11.976, 11.987;
+| 6  Horizon | RMSE: 32.357, 32.370; MAE: 20.263, 20.359; MAPE: 13.159, 13.271;
+| 12 Horizon | RMSE: 34.339, 35.025; MAE: 21.998, 22.583; MAPE: 14.584, 14.800;
+epoch 24 time used: 24  seconds  train loss: 838.063 val loss: 32.056925 test loss: 32.139419
+Epoch 25: 
+| 3  Horizon | RMSE: 30.537, 30.404; MAE: 18.910, 18.875; MAPE: 11.330, 11.518;
+| 6  Horizon | RMSE: 32.054, 32.216; MAE: 19.680, 19.826; MAPE: 11.732, 11.955;
+| 12 Horizon | RMSE: 33.600, 34.254; MAE: 20.866, 21.460; MAPE: 12.521, 12.967;
+epoch 25 time used: 24  seconds  train loss: 837.068 val loss: 31.793151 test loss: 31.971833
+Epoch 26: 
+| 3  Horizon | RMSE: 30.295, 29.772; MAE: 19.085, 18.901; MAPE: 11.856, 11.830;
+| 6  Horizon | RMSE: 31.725, 31.407; MAE: 19.830, 19.829; MAPE: 12.007, 12.076;
+| 12 Horizon | RMSE: 33.576, 33.846; MAE: 21.180, 21.627; MAPE: 12.667, 12.988;
+epoch 26 time used: 24  seconds  train loss: 834.294 val loss: 31.543799 test loss: 31.347734
+Epoch 27: 
+| 3  Horizon | RMSE: 30.360, 30.083; MAE: 19.030, 18.973; MAPE: 11.144, 11.264;
+| 6  Horizon | RMSE: 31.759, 31.812; MAE: 19.809, 19.996; MAPE: 11.630, 11.857;
+| 12 Horizon | RMSE: 33.769, 34.146; MAE: 21.275, 21.763; MAPE: 12.586, 12.952;
+epoch 27 time used: 24  seconds  train loss: 832.966 val loss: 31.608804 test loss: 31.652854
+Epoch 28: 
+| 3  Horizon | RMSE: 30.311, 29.955; MAE: 18.857, 18.779; MAPE: 11.094, 11.196;
+| 6  Horizon | RMSE: 31.849, 31.730; MAE: 19.655, 19.783; MAPE: 11.711, 11.904;
+| 12 Horizon | RMSE: 33.757, 34.206; MAE: 21.144, 21.700; MAPE: 12.580, 12.978;
+epoch 28 time used: 24  seconds  train loss: 830.087 val loss: 31.656222 test loss: 31.633671
+Epoch 29: 
+| 3  Horizon | RMSE: 30.469, 30.177; MAE: 19.196, 19.120; MAPE: 12.081, 12.228;
+| 6  Horizon | RMSE: 32.048, 32.008; MAE: 20.025, 20.129; MAPE: 12.504, 12.747;
+| 12 Horizon | RMSE: 33.958, 34.388; MAE: 21.850, 22.396; MAPE: 14.955, 15.446;
+epoch 29 time used: 24  seconds  train loss: 828.363 val loss: 31.802474 test loss: 31.799881
+Epoch 30: 
+| 3  Horizon | RMSE: 30.449, 30.462; MAE: 18.814, 18.804; MAPE: 11.089, 11.210;
+| 6  Horizon | RMSE: 31.959, 32.261; MAE: 19.650, 19.867; MAPE: 11.622, 11.865;
+| 12 Horizon | RMSE: 33.758, 34.442; MAE: 21.026, 21.633; MAPE: 12.628, 13.164;
+epoch 30 time used: 24  seconds  train loss: 827.226 val loss: 31.705121 test loss: 31.972063
+Epoch 31: 
+| 3  Horizon | RMSE: 30.290, 29.778; MAE: 18.947, 18.830; MAPE: 11.506, 11.571;
+| 6  Horizon | RMSE: 31.850, 31.598; MAE: 19.837, 19.946; MAPE: 12.036, 12.201;
+| 12 Horizon | RMSE: 33.979, 34.240; MAE: 21.352, 21.843; MAPE: 12.623, 12.993;
+epoch 31 time used: 24  seconds  train loss: 824.782 val loss: 31.668457 test loss: 31.492172
+Epoch 32: 
+| 3  Horizon | RMSE: 30.478, 30.377; MAE: 18.796, 18.731; MAPE: 11.245, 11.301;
+| 6  Horizon | RMSE: 31.918, 32.105; MAE: 19.741, 19.900; MAPE: 11.951, 12.097;
+| 12 Horizon | RMSE: 33.912, 34.351; MAE: 21.358, 21.776; MAPE: 13.538, 13.736;
+epoch 32 time used: 24  seconds  train loss: 822.174 val loss: 31.732299 test loss: 31.874319
+Epoch 33: 
+| 3  Horizon | RMSE: 30.593, 30.100; MAE: 18.830, 18.679; MAPE: 11.176, 11.223;
+| 6  Horizon | RMSE: 32.098, 31.869; MAE: 19.624, 19.690; MAPE: 11.667, 11.813;
+| 12 Horizon | RMSE: 33.593, 33.917; MAE: 20.775, 21.316; MAPE: 12.412, 12.909;
+Early stopping at epoch: 33
+Model  stnorm_point  Best Results:
+Epoch 23: 
+=        =        Horizon  3        =        =        =        =        Horizon  6        =        =        =        =        Horizon  12       =        =       
+RMSE     MAE      MAPE     Q10      Q50      Q90      RMSE     MAE      MAPE     Q10      Q50      Q90      RMSE     MAE      MAPE     Q10      Q50      Q90     
+30.029   18.703   11.255   0.000    0.000    0.000    31.827   19.789   11.960   0.000    0.000    0.000    34.094   21.527   12.992   0.000    0.000    0.000   
+Model Training Ended ... Fri Feb  9 00:25:59 2024

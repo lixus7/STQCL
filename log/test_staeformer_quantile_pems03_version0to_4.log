@@ -1,0 +1,62 @@
+nohup: ignoring input
+Model Testing Started ... Tue Apr  9 16:31:57 2024
+INPUT_STEP, PRED_STEP 12 12
+****************************************
+****************************************
+Under Train Strategy ---  0.6  ---:
+--- version  0  evaluation start ---
+file exists:  ./save/pems03_staeformer_in12_out12_addtimeFalse_adjFalse_lr0.001_hc32_train0.6_val0.2_test0.2_seedNone_lossquantile_version0_note:staeformer_quantile_pems03/staeformer.pt
+********************
+Version: 0 Start Testing :
+| 3  Horizon | RMSE: 20.937, 23.372; MAE: 13.158, 14.270; MAPE: 12.923, 15.070; Q10: 3.056, 3.343; Q50: 6.579, 7.135; Q90: 3.039, 3.347;
+| 6  Horizon | RMSE: 22.238, 25.857; MAE: 13.825, 15.614; MAPE: 13.949, 16.688; Q10: 3.279, 3.798; Q50: 6.913, 7.807; Q90: 3.202, 3.680;
+| 12 Horizon | RMSE: 23.668, 28.793; MAE: 14.667, 17.298; MAPE: 14.426, 17.780; Q10: 3.539, 4.412; Q50: 7.334, 8.649; Q90: 3.422, 4.106;
+--- version  0  evaluation end ---
+
+--- version  1  evaluation start ---
+file exists:  ./save/pems03_staeformer_in12_out12_addtimeFalse_adjFalse_lr0.001_hc32_train0.6_val0.2_test0.2_seedNone_lossquantile_version1_note:staeformer_quantile_pems03/staeformer.pt
+********************
+Version: 1 Start Testing :
+| 3  Horizon | RMSE: 20.948, 22.637; MAE: 13.151, 14.056; MAPE: 12.691, 14.755; Q10: 3.044, 3.290; Q50: 6.576, 7.028; Q90: 3.019, 3.285;
+| 6  Horizon | RMSE: 22.030, 24.748; MAE: 13.601, 15.063; MAPE: 12.838, 15.306; Q10: 3.262, 3.729; Q50: 6.800, 7.532; Q90: 3.143, 3.560;
+| 12 Horizon | RMSE: 23.420, 27.886; MAE: 14.473, 16.877; MAPE: 13.709, 17.073; Q10: 3.539, 4.344; Q50: 7.237, 8.439; Q90: 3.344, 4.002;
+--- version  1  evaluation end ---
+
+--- version  2  evaluation start ---
+file exists:  ./save/pems03_staeformer_in12_out12_addtimeFalse_adjFalse_lr0.001_hc32_train0.6_val0.2_test0.2_seedNone_lossquantile_version2_note:staeformer_quantile_pems03/staeformer.pt
+********************
+Version: 2 Start Testing :
+| 3  Horizon | RMSE: 21.025, 23.521; MAE: 13.147, 14.349; MAPE: 12.609, 14.742; Q10: 3.093, 3.457; Q50: 6.573, 7.174; Q90: 3.016, 3.334;
+| 6  Horizon | RMSE: 22.172, 25.784; MAE: 13.707, 15.519; MAPE: 12.929, 15.649; Q10: 3.322, 3.919; Q50: 6.854, 7.759; Q90: 3.157, 3.643;
+| 12 Horizon | RMSE: 23.685, 28.826; MAE: 14.668, 17.381; MAPE: 13.565, 16.908; Q10: 3.612, 4.615; Q50: 7.334, 8.691; Q90: 3.419, 4.170;
+--- version  2  evaluation end ---
+
+--- version  3  evaluation start ---
+file exists:  ./save/pems03_staeformer_in12_out12_addtimeFalse_adjFalse_lr0.001_hc32_train0.6_val0.2_test0.2_seedNone_lossquantile_version3_note:staeformer_quantile_pems03/staeformer.pt
+********************
+Version: 3 Start Testing :
+| 3  Horizon | RMSE: 21.231, 24.063; MAE: 13.178, 14.421; MAPE: 12.184, 14.324; Q10: 3.131, 3.579; Q50: 6.589, 7.210; Q90: 3.029, 3.327;
+| 6  Horizon | RMSE: 22.682, 26.453; MAE: 13.888, 15.707; MAPE: 12.754, 15.330; Q10: 3.411, 4.106; Q50: 6.944, 7.853; Q90: 3.306, 3.741;
+| 12 Horizon | RMSE: 24.214, 29.525; MAE: 14.814, 17.471; MAPE: 13.623, 16.940; Q10: 3.779, 4.837; Q50: 7.407, 8.735; Q90: 3.402, 4.083;
+--- version  3  evaluation end ---
+
+--- version  4  evaluation start ---
+file exists:  ./save/pems03_staeformer_in12_out12_addtimeFalse_adjFalse_lr0.001_hc32_train0.6_val0.2_test0.2_seedNone_lossquantile_version4_note:staeformer_quantile_pems03/staeformer.pt
+********************
+Version: 4 Start Testing :
+| 3  Horizon | RMSE: 21.075, 23.919; MAE: 13.164, 14.541; MAPE: 12.703, 15.167; Q10: 3.106, 3.543; Q50: 6.582, 7.271; Q90: 3.028, 3.381;
+| 6  Horizon | RMSE: 22.269, 26.174; MAE: 13.707, 15.649; MAPE: 12.762, 15.638; Q10: 3.355, 4.007; Q50: 6.854, 7.825; Q90: 3.176, 3.680;
+| 12 Horizon | RMSE: 23.751, 29.277; MAE: 14.663, 17.410; MAPE: 13.343, 16.826; Q10: 3.585, 4.624; Q50: 7.332, 8.705; Q90: 3.392, 4.127;
+--- version  4  evaluation end ---
+
+****************************************
+****************************************
+****************************************
+Results in Test Dataset in Each Horizon with All Version Average:
+staeformer  :
+=        =        Horizon  3        =        =        =        =        Horizon  6        =        =        =        =        Horizon  12       =        =       
+RMSE     MAE      MAPE     Q10      Q50      Q90      RMSE     MAE      MAPE     Q10      Q50      Q90      RMSE     MAE      MAPE     Q10      Q50      Q90     
+23.502   14.327   14.812   3.443    7.164    3.335    25.803   15.510   15.722   3.912    7.755    3.661    28.861   17.287   17.105   4.566    8.644    4.098   
+Model Multi Version Testing Ended ... Tue Apr  9 16:36:19 2024
+****************************************
+****************************************

@@ -1,0 +1,26 @@
+nohup: ignoring input
+pdate shape is:  (16992,)
+./save/pems04_stgcn7_in12_out12_addtimeFalse_adjTrue_lr0.001_hc32_train0.7_val0.1_test0.2_seed233_lossquantile_version12wait1000size300len30reset_y_mask_note: training started Wed Sep 27 02:10:41 2023
+pdate shape is:  (16992,)
+data load........
+initial data shape is:  (16992, 307, 3)
+train_mean shape : (307,)
+train  :  (11873, 24, 307, 3)
+val  :  (1697, 24, 307, 3)
+test  :  (3388, 24, 307, 3)
+Model Training Started ... Wed Sep 27 02:10:44 2023
+TIMESTEP_IN, TIMESTEP_OUT 12 12
+LOSS is : quantile
+Spatial CL target length = 1
+Spatial CL target length = 1
+Spatial CL target length = 2
+Epoch 0: 
+| 3  Horizon | RMSE: 39.156, 37.972; MAE: 26.174, 25.522; MAPE: 15.304, 15.327; Q10: 6.182, 6.049; Q50: 13.252, 12.905; Q90: 6.407, 6.279;
+| 6  Horizon | RMSE: 42.799, 41.663; MAE: 28.435, 27.872; MAPE: 16.061, 16.268; Q10: 6.542, 6.427; Q50: 14.402, 14.099; Q90: 7.623, 7.469;
+| 12 Horizon | RMSE: 55.179, 53.215; MAE: 36.880, 35.922; MAPE: 20.774, 20.793; Q10: 7.938, 7.728; Q50: 18.690, 18.183; Q90: 10.366, 9.775;
+epoch 0 time used: 52  seconds  train loss: 26.1 val loss: 9.979098 test loss: 9.723956
+Spatial CL target length = 3
+Spatial CL target length = 4
+Spatial CL target length = 5
+Spatial CL target length = 6
+Spatial CL target length = 7
